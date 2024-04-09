@@ -1,0 +1,33 @@
+h2 {
+    text-align: center;
+}
+
+.tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tile {
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    margin: 20px;
+    padding: 10px;
+    width: 25%;
+}
+
+.tile:hover {
+    transform: scale(1.05, 1.05);
+    cursor: pointer;
+}
+
+.tile h3, .description {
+    text-align: center;
+}
+
+.tile img {
+    max-width: 80%;
+    margin: 0 auto;
+    display: block;
+}
