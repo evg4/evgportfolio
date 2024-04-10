@@ -1,9 +1,9 @@
-import Nav from "../Nav/Nav"
+
 
 function About() {
     return <>
-    <Nav/>
+    <p>This will be the about page</p>
     </>
 }
 
-export default About
+export default About;

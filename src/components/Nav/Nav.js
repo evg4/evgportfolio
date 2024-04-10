@@ -3,13 +3,15 @@ import { NavLink } from "react-router-dom";
 function Nav() {
     return <nav>
         <ul>
-            <li> <NavLink to="/">About</NavLink> </li>
-            <li>Courses</li>
+            <li><NavLink to="/">Home</NavLink> </li>
+            <li><NavLink to="/about">About</NavLink> </li>
+            <li><NavLink to="/courses">Courses</NavLink></li>
             <li><NavLink to="/projects">Projects</NavLink></li>
-            <li>Blog</li>
-            <li>Contact</li>
+            <li><NavLink to="/blog">Blog</NavLink></li>
+            <li><NavLink to="/contact">Contact</NavLink></li>
         </ul>
     </nav>
 }
 
 export default Nav;
+
