@@ -1,0 +1,28 @@
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  border: 1px solid lightgray;
+}
+
+.nav li {
+  padding: 5px;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav a:visited {
+  color: black;
+}
+
+li:hover {
+  background-color: lightgray;
+}
+
+.nav .activeNavLink {
+  font-weight: bold;
+  text-decoration: underline;
+}

@@ -1,12 +1,15 @@
-import Nav from "../Nav/Nav"; 
+import Header from "../Header/Header";
+import Nav from "../Nav/Nav";
 import { Outlet } from "react-router-dom";
 
 function Root() {
-    return (
+  return (
     <>
-        <Nav/>
-        <Outlet/>
-    </>)
+      <Header />
+      <Nav />
+      <Outlet />
+    </>
+  );
 }
 
 export default Root;
