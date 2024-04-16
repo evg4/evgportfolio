@@ -1,0 +1,36 @@
+/** {
+  border: 1px solid green;
+}*/
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.contact1 {
+  width: 30%;
+}
+
+.contact2 {
+  width: 30%;
+}
+
+.contact3 {
+  width: 30%;
+}
+
+.contact p {
+  margin: 5px;
+  padding: 5px;
+}
+
+.socials {
+  display: flex;
+  margin: 25px 5px;
+}
+
+.socials img {
+  height: 60px;
+  padding: 5px;
+}
