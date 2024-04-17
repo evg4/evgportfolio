@@ -33,6 +33,26 @@ const projects = [
     image: recipe,
     link: "https://evg-recipe-blog.netlify.app/",
   },
+  {
+    title: "Recipe blog",
+    date: "21.09.23",
+    languages: "HTML, CSS, JavaScript, React",
+    description: "Recipe blog using React Routing.",
+    details:
+      "I created this React app to practise using React Routing as well as solidify knowledge on other React concepts.",
+    image: recipe,
+    link: "https://evg-recipe-blog.netlify.app/",
+  },
+  {
+    title: "Redditmini",
+    date: "07.11.23",
+    languages: "HTML, CSS, JavaScript, React, Redux",
+    description: "Reddit clone using the Reddit API.",
+    details:
+      "I created this React-Redux app to practise all skills learned so far, including async thunks and a store to manage state. I use CSS animations during the loading states. It connects to the Reddit API; users can click on pre-defined categories (subreddits) or enter a search term.",
+    image: reddit,
+    link: "https://evg-redditmini.netlify.app/",
+  },
 ];
 
 export default projects;
