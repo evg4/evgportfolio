@@ -65,12 +65,8 @@ blogs.forEach((blog) => {
   }
   if (yearCount === 0) {
     years.push({ year: year, months: [{ month: month, days: [day] }] });
-    console.log(`year added: ${year}`);
-    console.log(years);
   } else {
     let thisYear = years.find((obj) => obj.year === year);
-    console.log(`year already present: ${thisYear}`);
-    console.log(`Months array: ${thisYear.months[0].month}`);
     for (let i = 0; i < thisYear.months.length; i++) {
       if (thisYear.months[i].month === month) {
         monthCount++;
@@ -79,7 +75,6 @@ blogs.forEach((blog) => {
     if (monthCount === 0) {
       thisYear.months.push({ month: month, days: [day] });
     } else {
-      console.log(`month already present`);
       let thisMonth = thisYear.months.find((obj) => obj.month === month);
       thisMonth.days.push(day);
     }

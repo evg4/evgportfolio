@@ -7,7 +7,9 @@ function Nav() {
       <ul>
         <li>
           <NavLink
-            className={({ isActive }) => isActive && styles.activeNavLink}
+            className={({ isActive }) =>
+              isActive ? styles.activeNavLink : undefined
+            }
             to="/"
           >
             Home
@@ -15,7 +17,9 @@ function Nav() {
         </li>
         <li>
           <NavLink
-            className={({ isActive }) => isActive && styles.activeNavLink}
+            className={({ isActive }) =>
+              isActive ? styles.activeNavLink : undefined
+            }
             to="/about"
           >
             About
@@ -23,7 +27,9 @@ function Nav() {
         </li>
         <li>
           <NavLink
-            className={({ isActive }) => isActive && styles.activeNavLink}
+            className={({ isActive }) =>
+              isActive ? styles.activeNavLink : undefined
+            }
             to="/courses"
           >
             Courses
@@ -31,7 +37,9 @@ function Nav() {
         </li>
         <li>
           <NavLink
-            className={({ isActive }) => isActive && styles.activeNavLink}
+            className={({ isActive }) =>
+              isActive ? styles.activeNavLink : undefined
+            }
             to="/projects"
           >
             Projects
@@ -39,7 +47,9 @@ function Nav() {
         </li>
         <li>
           <NavLink
-            className={({ isActive }) => isActive && styles.activeNavLink}
+            className={({ isActive }) =>
+              isActive ? styles.activeNavLink : undefined
+            }
             to="/blog"
           >
             Blog
@@ -47,7 +57,9 @@ function Nav() {
         </li>
         <li>
           <NavLink
-            className={({ isActive }) => isActive && styles.activeNavLink}
+            className={({ isActive }) =>
+              isActive ? styles.activeNavLink : undefined
+            }
             to="/contact"
           >
             Contact

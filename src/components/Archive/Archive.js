@@ -5,14 +5,14 @@ import { years } from "../../data/blogs";
 function Archive() {
   return years.map((year) => {
     return (
-      <div>
+      <div key={year.year}>
         <p>Year: {year.year}</p>
         {year.months.map((month) => {
           return (
-            <div>
+            <div key={year.year + month.month}>
               <p>Month: {month.month}</p>
               {month.days.map((day) => {
-                return <p>Day: {day}</p>;
+                return <p key={year.year + month.month + day}>Day: {day}</p>;
               })}
             </div>
           );

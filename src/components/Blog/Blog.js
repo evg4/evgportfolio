@@ -1,5 +1,4 @@
 import Archive from "../Archive/Archive";
-import { years } from "../../data/blogs";
 
 function Blog() {
   return (
