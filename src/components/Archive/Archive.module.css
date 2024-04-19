@@ -1,3 +1,23 @@
-.archiveDiv {
+.archive {
   border: 1px solid lightgray;
+  margin: 5px;
+  width: 30%;
+}
+
+.year {
+  font-size: 20px;
+  margin: 5px;
+  margin-left: 5px;
+}
+
+.month {
+  margin: 5px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.day {
+  margin: 5px;
+  margin-left: 35px;
+  font-size: 20px;
 }
