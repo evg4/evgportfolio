@@ -21,6 +21,11 @@ h2 {
   width: max-content;
 }
 
+h3 {
+  font-size: 30px;
+  margin: 5px;
+}
+
 p {
   font-size: 30px;
   margin: 5px;

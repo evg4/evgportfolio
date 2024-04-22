@@ -1,7 +1,12 @@
 .archive {
   border: 1px solid lightgray;
   margin: 5px;
-  width: 30%;
+}
+
+.archive summary,
+.archive details,
+.archive p {
+  font-size: 30px;
 }
 
 .year {
