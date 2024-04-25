@@ -6,7 +6,7 @@ function BlogPreviews() {
     <section>
       {blogs.map((blog) => {
         return (
-          <div className={styles.blogPreview}>
+          <div key={blog.title} className={styles.blogPreview}>
             <h3>{blog.title}</h3>
             <p>{`${blog.day}.${blog.month}.${blog.year}`}</p>
             <img></img>

@@ -1,6 +1,6 @@
 import styles from "./Archive.module.css";
 import blogs from "../../data/blogs";
-import { years } from "../../data/blogs";
+import { years, blogTitles } from "../../data/blogs";
 
 let monthsObj = {
   "01": "January",
@@ -32,12 +32,13 @@ function Archive() {
                       <summary>{monthsObj[month.month]}</summary>
 
                       {month.days.map((day) => {
+                        let date = `${day}.${month.month}.${year.year}`;
                         return (
                           <p
                             className={styles.day}
                             key={year.year + month.month + day}
                           >
-                            {`${day}.${month.month}.${year.year}`}
+                            {`${date}: ${blogTitles[date]}`}
                           </p>
                         );
                       })}
