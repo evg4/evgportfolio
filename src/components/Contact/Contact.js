@@ -11,7 +11,7 @@ function Contact() {
         <div className={styles.socials}>
           {socials.map((social) => {
             return (
-              <a href={social.link} target="blank">
+              <a href={social.link} target="_blank">
                 <img src={social.logo}></img>
               </a>
             );
