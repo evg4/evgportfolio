@@ -1,5 +1,17 @@
 const blogs = [
   {
+    title: "Future project",
+    day: "28",
+    month: "12",
+    year: "2024",
+    img: "img",
+    summaryText: "This is my first project from 2024.",
+    fullText: "",
+    get fullDate() {
+      return `${this.day}.${this.month}.${this.year}`;
+    },
+  },
+  {
     title: "EVG Translations",
     day: "28",
     month: "12",
