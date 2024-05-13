@@ -11,6 +11,7 @@ import About from "../About/About";
 import Courses from "../Courses/Courses";
 import Projects from "../Projects/Projects";
 import Blog from "../Blog/Blog";
+import BlogPost from "../BlogPost/BlogPost";
 import Contact from "../Contact/Contact";
 
 const router = createBrowserRouter(
@@ -22,6 +23,7 @@ const router = createBrowserRouter(
         <Route path="/courses" element={<Courses />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:title" element={<BlogPost />} />
         <Route path="/contact" element={<Contact />} />
       </Route>
     </>

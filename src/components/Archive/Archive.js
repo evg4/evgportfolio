@@ -1,6 +1,6 @@
 import styles from "./Archive.module.css";
-import blogs from "../../data/blogs";
 import { years, blogTitles } from "../../data/blogs";
+import { useNavigate } from "react-router-dom";
 
 let monthsObj = {
   "01": "January",
@@ -18,8 +18,12 @@ let monthsObj = {
 };
 
 function Archive() {
+  const navigate = useNavigate();
+
   return (
     <section className={styles.archive}>
+      <h2>Archive</h2>
+
       {years.map((year) => {
         return (
           <div key={year.year}>
@@ -53,27 +57,5 @@ function Archive() {
     </section>
   );
 }
-
-/*function Archive() {
-  return (
-    <section>
-      <div className={styles.archiveDiv}>
-        <h3>Archive</h3>
-        <details>
-          <summary>2024</summary>
-          <details>
-            <summary>April</summary>
-            <p>05.04.24</p>
-            <p>01.04.24</p>
-          </details>
-          <details>
-            <summary>March</summary>
-            <p>11.03.24</p>
-          </details>
-        </details>
-      </div>
-    </section>
-  );
-}*/
 
 export default Archive;
