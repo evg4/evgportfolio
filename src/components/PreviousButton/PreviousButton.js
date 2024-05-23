@@ -4,7 +4,6 @@ import blogs from "../../data/blogs";
 
 function PreviousButton() {
   function handleClick() {
-    console.log(prevBlog);
     navigate(`/blog/${prevBlog}`);
   }
   const navigate = useNavigate();
