@@ -1,3 +1,33 @@
+import evgtrans from "../assets/EVGTranslations.JPG";
+import reddit from "../assets/reddit-mini.JPG";
+import flashcards from "../assets/flashcards.PNG";
+import packingList from "../assets/packingList.PNG";
+import planner from "../assets/planner.PNG";
+import recipe from "../assets/recipe-blog.JPG";
+import jammming from "../assets/Jammming.PNG";
+import timer from "../assets/timer.PNG";
+import quizTeam from "../assets/quizTeam.PNG";
+import libraryRentals from "../assets/LibraryRentals.PNG";
+import friendFrenzy from "../assets/friendFrenzy.PNG";
+import foodFacts from "../assets/foodFacts.PNG";
+import rhymes from "../assets/rhymes.PNG";
+import quizzes from "../assets/quizzes.jpeg";
+import shapes from "../assets/shapes.jpeg";
+import findYourHat from "../assets/findYourHat.jpeg";
+import portfolio from "../assets/portfolio.PNG";
+import survey from "../assets/survey.jpeg";
+import colourChanger from "../assets/colourChanger.jpeg";
+import bakery from "../assets/bakery.jpeg";
+import stammtisch from "../assets/stammtisch.jpeg";
+import meetTheTeam from "../assets/meetTheTeam.PNG";
+import greenConsulting from "../assets/greenConsulting.jpeg";
+import superfoods2 from "../assets/superfoods2.jpeg";
+import superfoods1 from "../assets/superfoods1.jpeg";
+import spanish from "../assets/spanish.jpeg";
+import styleGuide from "../assets/styleGuide.jpeg";
+import cheatsheet from "../assets/cheatsheet.jpeg";
+import salsa from "../assets/salsa.jpeg";
+
 const blogs = [
   {
     title: "Future project",
@@ -16,7 +46,7 @@ const blogs = [
     day: "28",
     month: "12",
     year: "2023",
-    img: "img",
+    img: evgtrans,
     summaryText:
       "This is the first website I've built to be used in the real world! Featured on the Projects page.",
     fullText: "",
@@ -29,7 +59,7 @@ const blogs = [
     day: "07",
     month: "11",
     year: "2023",
-    img: "img",
+    img: reddit,
     summaryText:
       "This React app uses Redux and connects to the Reddit API. Featured on the Projects page.",
     fullText: "",
@@ -42,7 +72,7 @@ const blogs = [
     day: "12",
     month: "10",
     year: "2023",
-    img: "img",
+    img: flashcards,
     summaryText: "This Codecademy project was to practise Redux.",
     fullText: "",
     get fullDate() {
@@ -54,7 +84,7 @@ const blogs = [
     day: "09",
     month: "10",
     year: "2023",
-    img: "img",
+    img: packingList,
     summaryText: "I created this app to help me understand the Redux toolkit.",
     fullText: "",
     get fullDate() {
@@ -66,7 +96,7 @@ const blogs = [
     day: "27",
     month: "09",
     year: "2023",
-    img: "img",
+    img: planner,
     summaryText:
       "This Codecademy project combines React Routing, HTML forms, and React hooks.",
     fullText: "",
@@ -79,7 +109,7 @@ const blogs = [
     day: "21",
     month: "09",
     year: "2023",
-    img: "img",
+    img: recipe,
     summaryText:
       "A React app using React Routing. Featured on the Projects page.",
     fullText: "",
@@ -92,7 +122,7 @@ const blogs = [
     day: "30",
     month: "08",
     year: "2023",
-    img: "img",
+    img: jammming,
     summaryText:
       "This webapp connects to the Spotify API. Featured on the Projects page.",
     fullText: "",
@@ -105,7 +135,7 @@ const blogs = [
     day: "22",
     month: "08",
     year: "2023",
-    img: "img",
+    img: timer,
     summaryText: "My attempt at using the useEffect() hook.",
     fullText: "",
     get fullDate() {
@@ -117,7 +147,7 @@ const blogs = [
     day: "21",
     month: "08",
     year: "2023",
-    img: "img",
+    img: quizTeam,
     summaryText: "This form uses the useState() hook with a JavaScript object.",
     fullText: "",
     get fullDate() {
@@ -129,7 +159,7 @@ const blogs = [
     day: "18",
     month: "08",
     year: "2023",
-    img: "img",
+    img: libraryRentals,
     summaryText:
       "More React practise - this time with a focus on useState() with an array.",
     fullText: "",
@@ -142,7 +172,7 @@ const blogs = [
     day: "17",
     month: "08",
     year: "2023",
-    img: "img",
+    img: friendFrenzy,
     summaryText:
       "My second React app makes use of props and the useState() hook.",
     fullText: "",
@@ -155,7 +185,7 @@ const blogs = [
     day: "15",
     month: "08",
     year: "2023",
-    img: "img",
+    img: foodFacts,
     summaryText: "This is a basic webpage built using React.",
     fullText: "",
     get fullDate() {
@@ -167,7 +197,7 @@ const blogs = [
     day: "10",
     month: "08",
     year: "2023",
-    img: "img",
+    img: rhymes,
     summaryText: "My first API call!",
     fullText: "",
     get fullDate() {
@@ -179,7 +209,7 @@ const blogs = [
     day: "27",
     month: "07",
     year: "2023",
-    img: "img",
+    img: quizzes,
     summaryText:
       "I created a bank of questions and answers to export for different quizzes.",
     fullText: "",
@@ -192,7 +222,7 @@ const blogs = [
     day: "26",
     month: "07",
     year: "2023",
-    img: "img",
+    img: shapes,
     summaryText:
       "The main purpose of this was to practice importing and exporting JavaScript modules.",
     fullText: "",
@@ -205,7 +235,7 @@ const blogs = [
     day: "25",
     month: "07",
     year: "2023",
-    img: "img",
+    img: findYourHat,
     summaryText:
       "This started out as a JavaScript-only Codecademy challenge, but I made a webpage too. ",
     fullText: "",
@@ -218,7 +248,7 @@ const blogs = [
     day: "10",
     month: "07",
     year: "2023",
-    img: "img",
+    img: portfolio,
     summaryText: "Here is my first portfolio! Featured on the Projects page.",
     fullText: "",
     get fullDate() {
@@ -230,7 +260,7 @@ const blogs = [
     day: "30",
     month: "06",
     year: "2023",
-    img: "img",
+    img: survey,
     summaryText: "I made this form to practise HTML forms. ",
     fullText: "",
     get fullDate() {
@@ -242,7 +272,7 @@ const blogs = [
     day: "28",
     month: "06",
     year: "2023",
-    img: "img",
+    img: colourChanger,
     summaryText:
       "It's finally time to incorporate JavaScript into my webpages! ",
     fullText: "",
@@ -255,7 +285,7 @@ const blogs = [
     day: "26",
     month: "06",
     year: "2023",
-    img: "img",
+    img: bakery,
     summaryText:
       "This website focuses on transitions, transformations and animations using CSS.",
     fullText: "",
@@ -268,7 +298,7 @@ const blogs = [
     day: "25",
     month: "05",
     year: "2023",
-    img: "img",
+    img: stammtisch,
     summaryText: "This site uses @media rulesets to make a webpage responsive.",
     fullText: "",
     get fullDate() {
@@ -280,7 +310,7 @@ const blogs = [
     day: "18",
     month: "05",
     year: "2023",
-    img: "img",
+    img: meetTheTeam,
     summaryText:
       "I wanted to work out how to get a caption that appears on hover.",
     fullText: "",
@@ -293,7 +323,7 @@ const blogs = [
     day: "17",
     month: "05",
     year: "2023",
-    img: "img",
+    img: greenConsulting,
     summaryText:
       "My largest project so far - putting everything together into one webpage.",
     fullText: "",
@@ -306,7 +336,7 @@ const blogs = [
     day: "16",
     month: "05",
     year: "2023",
-    img: "img",
+    img: superfoods2,
     summaryText:
       "Here is my second attempt at using the grid layout, based heavily on the previous design.",
     fullText: "",
@@ -319,7 +349,7 @@ const blogs = [
     day: "15",
     month: "05",
     year: "2023",
-    img: "img",
+    img: superfoods1,
     summaryText:
       "This simple page was my first attempt at using the grid layout.",
     fullText:
@@ -333,7 +363,7 @@ const blogs = [
     day: "14",
     month: "05",
     year: "2023",
-    img: "img",
+    img: spanish,
     summaryText:
       "This webpage was for me to try out flexbox... with an interesting colour choice!",
     fullText:
@@ -347,7 +377,7 @@ const blogs = [
     day: "12",
     month: "05",
     year: "2023",
-    img: "img",
+    img: styleGuide,
     summaryText: "A project to get used to different style elements.",
     fullText:
       "This will be several paragraphs of text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
@@ -360,7 +390,7 @@ const blogs = [
     day: "08",
     month: "05",
     year: "2023",
-    img: "img",
+    img: cheatsheet,
     summaryText:
       "This Codecademy exercise was designed to practise tables in HTML.",
     fullText:
@@ -374,7 +404,7 @@ const blogs = [
     day: "24",
     month: "04",
     year: "2023",
-    img: "img",
+    img: salsa,
     summaryText:
       "My first project! I completed this as part of the SheCodes Basics course.",
     fullText:
