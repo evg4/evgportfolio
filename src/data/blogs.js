@@ -49,7 +49,8 @@ const blogs = [
     img: evgtrans,
     summaryText:
       "This is the first website I've built to be used in the real world! Featured on the Projects page.",
-    fullText: "",
+    fullText:
+      "I really enjoyed making this 'real-life' project. At the time, I was still working as a self-employed translator while learning how to code, and my annual payment for my Squarespace website was due for renewal. So I decided to kill two birds with one stone and build a website myself. Not only was it good for advertising my translation services, it was also good for my coding portfolio!",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
