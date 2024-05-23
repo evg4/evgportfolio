@@ -1,6 +1,7 @@
 import styles from "./Archive.module.css";
 import { years, blogTitles } from "../../data/blogs";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 let monthsObj = {
   "01": "January",
@@ -42,7 +43,9 @@ function Archive() {
                             className={styles.day}
                             key={year.year + month.month + day}
                           >
-                            {`${date}: ${blogTitles[date]}`}
+                            <Link
+                              to={blogTitles[date]}
+                            >{`${date}: ${blogTitles[date]}`}</Link>
                           </p>
                         );
                       })}
