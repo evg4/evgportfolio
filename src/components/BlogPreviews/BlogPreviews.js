@@ -36,7 +36,7 @@ function BlogPreviews() {
               <Link to={blog.title}>{blog.title}</Link>
             </h3>
             <p>{`${blog.day}.${blog.month}.${blog.year}`}</p>
-            <img></img>
+            <img src={blog.img}></img>
             <p>{blog.summaryText}</p>
           </div>
         );

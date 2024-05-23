@@ -11,7 +11,7 @@ function BlogPost() {
       <section>
         <h2>{title}</h2>
         <p>{`${blog.day}.${blog.month}.${blog.year}`}</p>
-        <img></img>
+        <img src={blog.img}></img>
         <p>{blog.fullText}</p>
       </section>
       <BackButton />
