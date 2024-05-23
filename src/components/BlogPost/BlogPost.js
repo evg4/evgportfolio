@@ -2,6 +2,7 @@ import styles from "./BlogPost.module.css";
 import { useParams } from "react-router-dom";
 import blogs from "../../data/blogs";
 import BackButton from "../BackButton/BackButton";
+import PreviousButton from "../PreviousButton/PreviousButton";
 
 function BlogPost() {
   let { title } = useParams();
@@ -15,6 +16,7 @@ function BlogPost() {
         <p>{blog.fullText}</p>
       </section>
       <BackButton />
+      <PreviousButton />
     </div>
   );
 }
