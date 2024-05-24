@@ -35,20 +35,21 @@ function Archive() {
                   <div key={year.year + month.month}>
                     <details className={styles.month}>
                       <summary>{monthsObj[month.month]}</summary>
-
-                      {month.days.map((day) => {
-                        let date = `${day}.${month.month}.${year.year}`;
-                        return (
-                          <p
-                            className={styles.day}
-                            key={year.year + month.month + day}
-                          >
-                            <Link
-                              to={blogTitles[date]}
-                            >{`${date}: ${blogTitles[date]}`}</Link>
-                          </p>
-                        );
-                      })}
+                      <ul>
+                        {month.days.map((day) => {
+                          let date = `${day}.${month.month}.${year.year}`;
+                          return (
+                            <li
+                              className={styles.day}
+                              key={year.year + month.month + day}
+                            >
+                              <Link
+                                to={blogTitles[date]}
+                              >{`${blogTitles[date]}`}</Link>
+                            </li>
+                          );
+                        })}
+                      </ul>
                     </details>
                   </div>
                 );

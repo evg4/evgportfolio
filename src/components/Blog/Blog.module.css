@@ -1,6 +1,8 @@
 .blogPage {
   display: flex;
   justify-content: right;
+  height: 100%;
+  border: 1px solid purple;
 }
 
 .preview {
@@ -9,13 +11,10 @@
 }
 
 .archive {
-  width: 25%;
-  position: absolute;
+  width: 30%;
+  position: sticky;
+  top: 10px;
+  height: min-content;
+  max-height: 100vh;
+  overflow-y: auto;
 }
-
-/*
-trying to get archive to be sticky
-google says its containign elemenet needs to have a defined height
-so that should be .blogPage
-but that didn't work
-*/

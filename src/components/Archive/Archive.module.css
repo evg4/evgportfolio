@@ -6,7 +6,7 @@
 .archive summary,
 .archive details,
 .archive p {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .year {
@@ -21,8 +21,6 @@
   font-size: 20px;
 }
 
-.day {
-  margin: 5px;
-  margin-left: 35px;
+.day a {
   font-size: 20px;
 }
