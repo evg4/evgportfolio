@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import blogs from "../../data/blogs";
 import BackButton from "../BackButton/BackButton";
 import PreviousButton from "../PreviousButton/PreviousButton";
+import NextButton from "../NextButton/NextButton";
 
 function BlogPost() {
   let { title } = useParams();
@@ -17,6 +18,7 @@ function BlogPost() {
       </section>
       <BackButton />
       <PreviousButton />
+      <NextButton />
     </div>
   );
 }

@@ -1,10 +1,12 @@
 import styles from "./BackButton.module.css";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function BackButton() {
-  const navigate = useNavigate();
-
-  return <button onClick={() => navigate(-1)}>Back</button>;
+  return (
+    <Link to="/blog">
+      <button>Back to all posts</button>
+    </Link>
+  );
 }
 
 export default BackButton;
