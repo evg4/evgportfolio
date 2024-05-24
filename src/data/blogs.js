@@ -1,3 +1,4 @@
+import eduTaskHub from "../assets/eduTaskHub.PNG";
 import evgtrans from "../assets/EVGTranslations.JPG";
 import reddit from "../assets/reddit-mini.JPG";
 import flashcards from "../assets/flashcards.PNG";
@@ -30,12 +31,12 @@ import salsa from "../assets/salsa.jpeg";
 
 const blogs = [
   {
-    title: "Future project",
-    day: "28",
-    month: "12",
+    title: "EduTaskHub",
+    day: "01",
+    month: "02",
     year: "2024",
-    img: "img",
-    summaryText: "This is my first project from 2024.",
+    img: eduTaskHub,
+    summaryText: "I worked on this with my mentor Jade Wilson.",
     fullText: "",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
