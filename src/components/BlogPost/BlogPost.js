@@ -16,9 +16,13 @@ function BlogPost() {
         <img src={blog.img}></img>
         <p>{blog.fullText}</p>
       </section>
-      <BackButton />
-      <PreviousButton />
-      <NextButton />
+      <div className={styles.buttons}>
+        <BackButton />
+        <div>
+          <PreviousButton />
+          <NextButton />
+        </div>
+      </div>
     </div>
   );
 }
