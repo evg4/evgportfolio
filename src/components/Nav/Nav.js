@@ -25,7 +25,7 @@ function Nav() {
             About
           </NavLink>{" "}
         </li>
-        <li>
+        {/*<li>
           <NavLink
             className={({ isActive }) =>
               isActive ? styles.activeNavLink : undefined
@@ -34,7 +34,7 @@ function Nav() {
           >
             Courses
           </NavLink>
-        </li>
+          </li>*/}
         <li>
           <NavLink
             className={({ isActive }) =>
