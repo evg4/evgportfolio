@@ -11,19 +11,19 @@ function PreviousButton() {
   let blog = blogs.find((object) => object.title === title);
   let prevBlog;
   let disabled;
-  if (blogs.indexOf(blog) + 1 >= blogs.length) {
+  if (blogs.indexOf(blog) === 0) {
     prevBlog = "";
     disabled = true;
   } else {
-    prevBlog = blogs[blogs.indexOf(blog) + 1].title;
+    prevBlog = blogs[blogs.indexOf(blog) - 1].title;
   }
 
   return disabled ? (
     <button disabled onClick={handleClick}>
-      Previous
+      &lt;&lt;
     </button>
   ) : (
-    <button onClick={handleClick}>Previous</button>
+    <button onClick={handleClick}>&lt;&lt;</button>
   );
 }
 

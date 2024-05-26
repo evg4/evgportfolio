@@ -11,19 +11,19 @@ function NextButton() {
   let blog = blogs.find((object) => object.title === title);
   let nextBlog;
   let disabled;
-  if (blogs.indexOf(blog) === 0) {
+  if (blogs.indexOf(blog) + 1 >= blogs.length) {
     nextBlog = "";
     disabled = true;
   } else {
-    nextBlog = blogs[blogs.indexOf(blog) - 1].title;
+    nextBlog = blogs[blogs.indexOf(blog) + 1].title;
   }
 
   return disabled ? (
     <button disabled onClick={handleClick}>
-      Next
+      &gt;&gt;
     </button>
   ) : (
-    <button onClick={handleClick}>Next</button>
+    <button onClick={handleClick}>&gt;&gt;</button>
   );
 }
 
