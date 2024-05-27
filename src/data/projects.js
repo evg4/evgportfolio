@@ -54,7 +54,7 @@ const projects = [
     details:
       "This was my first portfolio, built using plain HTML, CSS and JavaScript. The first version only had a few things on the Projects page, but as I completed more webpages, I wanted to keep adding them. The page began to look crowded, and I also realised React would be a much more efficient way to build this, so I replaced it with this website. But I was really proud of this when I first created it, as it was one of my first major projects, so I am including it here!",
     image: portfolio,
-    link: "https://evg-redditmini.netlify.app/",
+    link: "https://evg4.github.io/index.html",
   },
 ];
 
