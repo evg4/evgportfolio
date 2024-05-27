@@ -32,6 +32,7 @@ import salsa from "../assets/salsa.jpeg";
 const blogs = [
   {
     title: "EduTaskHub",
+    link: "https://edutaskhub.netlify.app/",
     day: "01",
     month: "02",
     year: "2024",
@@ -44,6 +45,7 @@ const blogs = [
   },
   {
     title: "EVG Translations",
+    link: "https://evg-translations.netlify.app/",
     day: "28",
     month: "12",
     year: "2023",
@@ -58,6 +60,7 @@ const blogs = [
   },
   {
     title: "Redditmini",
+    link: "https://evg-redditmini.netlify.app/",
     day: "07",
     month: "11",
     year: "2023",
@@ -71,6 +74,7 @@ const blogs = [
   },
   {
     title: "Flashcards",
+    link: "https://evg-flashcards.netlify.app/",
     day: "12",
     month: "10",
     year: "2023",
@@ -83,6 +87,7 @@ const blogs = [
   },
   {
     title: "Packing list",
+    link: "https://evg-packing-list.netlify.app/",
     day: "09",
     month: "10",
     year: "2023",
@@ -95,6 +100,7 @@ const blogs = [
   },
   {
     title: "Appointment planner",
+    link: "https://evg-appointment-planner.netlify.app/contacts",
     day: "27",
     month: "09",
     year: "2023",
@@ -108,6 +114,7 @@ const blogs = [
   },
   {
     title: "Recipe blog",
+    link: "https://evg-recipe-blog.netlify.app/",
     day: "21",
     month: "09",
     year: "2023",
@@ -121,6 +128,7 @@ const blogs = [
   },
   {
     title: "Jammming",
+    link: "",
     day: "30",
     month: "08",
     year: "2023",
@@ -134,6 +142,7 @@ const blogs = [
   },
   {
     title: "Timer",
+    link: "https://evg4.github.io/timer/",
     day: "22",
     month: "08",
     year: "2023",
@@ -146,6 +155,7 @@ const blogs = [
   },
   {
     title: "Quiz team registration",
+    link: "https://evg4.github.io/quizmember/",
     day: "21",
     month: "08",
     year: "2023",
@@ -158,6 +168,7 @@ const blogs = [
   },
   {
     title: "Library rentals",
+    link: "https://evg4.github.io/libraryrentals/",
     day: "18",
     month: "08",
     year: "2023",
@@ -171,6 +182,7 @@ const blogs = [
   },
   {
     title: "Friend Frenzy",
+    link: "https://evg4.github.io/friendfrenzy/",
     day: "17",
     month: "08",
     year: "2023",
@@ -184,6 +196,7 @@ const blogs = [
   },
   {
     title: "Food facts",
+    link: "https://evg4.github.io/food-facts/",
     day: "15",
     month: "08",
     year: "2023",
@@ -196,6 +209,7 @@ const blogs = [
   },
   {
     title: "Rhyme finder",
+    link: "https://evg4.github.io/Rhyme-finder/",
     day: "10",
     month: "08",
     year: "2023",
@@ -208,6 +222,7 @@ const blogs = [
   },
   {
     title: "Quizzes",
+    link: "",
     day: "27",
     month: "07",
     year: "2023",
@@ -221,6 +236,7 @@ const blogs = [
   },
   {
     title: "Shapes",
+    link: "https://evg4.github.io/Shapes/",
     day: "26",
     month: "07",
     year: "2023",
@@ -234,6 +250,7 @@ const blogs = [
   },
   {
     title: "Find my hat",
+    link: "https://evg4.github.io/Find-your-hat-web/",
     day: "25",
     month: "07",
     year: "2023",
@@ -247,6 +264,7 @@ const blogs = [
   },
   {
     title: "Portfolio",
+    link: "https://evg4.github.io/index.html",
     day: "10",
     month: "07",
     year: "2023",
@@ -259,6 +277,7 @@ const blogs = [
   },
   {
     title: "Sweets and chocolate survey",
+    link: "https://evg4.github.io/Sweets-survey/",
     day: "30",
     month: "06",
     year: "2023",
@@ -271,6 +290,7 @@ const blogs = [
   },
   {
     title: "Colour changer",
+    link: "https://evg4.github.io/Colour-changer/",
     day: "28",
     month: "06",
     year: "2023",
@@ -284,6 +304,7 @@ const blogs = [
   },
   {
     title: "Belle's Bakery",
+    link: "https://evg4.github.io/Belle-s-bakery/",
     day: "26",
     month: "06",
     year: "2023",
@@ -297,6 +318,7 @@ const blogs = [
   },
   {
     title: "Stammtisch Sundays",
+    link: "https://evg4.github.io/Stammtisch-Sundays/",
     day: "25",
     month: "05",
     year: "2023",
@@ -309,6 +331,7 @@ const blogs = [
   },
   {
     title: "Meet the team",
+    link: "https://evg4.github.io/Meet-the-team/",
     day: "18",
     month: "05",
     year: "2023",
@@ -322,6 +345,7 @@ const blogs = [
   },
   {
     title: "Green Consulting",
+    link: "https://evg4.github.io/Green-Consulting/",
     day: "17",
     month: "05",
     year: "2023",
@@ -335,6 +359,7 @@ const blogs = [
   },
   {
     title: "Superfoods 2",
+    link: "https://evg4.github.io/Superfoods-v2/",
     day: "16",
     month: "05",
     year: "2023",
@@ -348,6 +373,7 @@ const blogs = [
   },
   {
     title: "Superfoods 1",
+    link: "https://evg4.github.io/Superfoods-v1/",
     day: "15",
     month: "05",
     year: "2023",
@@ -362,6 +388,7 @@ const blogs = [
   },
   {
     title: "Spanish",
+    link: "https://evg4.github.io/Spanish/",
     day: "14",
     month: "05",
     year: "2023",
@@ -376,6 +403,7 @@ const blogs = [
   },
   {
     title: "Website style guide",
+    link: "https://evg4.github.io/Website-style-guide/",
     day: "12",
     month: "05",
     year: "2023",
@@ -389,6 +417,7 @@ const blogs = [
   },
   {
     title: "CSS colours cheatsheet",
+    link: "https://evg4.github.io/css-colours/",
     day: "08",
     month: "05",
     year: "2023",
@@ -403,6 +432,7 @@ const blogs = [
   },
   {
     title: "Salsa dancing",
+    link: "https://evg4.github.io/Salsa-dancing/",
     day: "24",
     month: "04",
     year: "2023",
