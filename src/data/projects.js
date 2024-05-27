@@ -43,7 +43,7 @@ const projects = [
     details:
       "The aim of this project was to combine all skills learned so far in one React app.",
     image: jammming,
-    link: "",
+    link: "http://localhost:3000/projects/jammming",
   },
 
   {
