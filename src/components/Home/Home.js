@@ -2,6 +2,7 @@ import styles from "./Home.module.css";
 import { Link } from "react-router-dom";
 import photo from "../../assets/sunflowers.jpg";
 import TwitterTimeline from "../TwitterTimeline/TwitterTimeline";
+import InNumbers from "../InNumbers/InNumbers";
 
 function Home() {
   return (
@@ -40,6 +41,9 @@ function Home() {
         <div className={styles.imgDiv}>
           <img src={photo}></img>
         </div>
+      </div>
+      <div className={styles.numbers}>
+        <InNumbers />
       </div>
       <TwitterTimeline />
     </section>

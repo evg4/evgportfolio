@@ -1,0 +1,8 @@
+.numbersDiv {
+  display: flex;
+  justify-content: space-around;
+}
+
+.numbersDiv p {
+  text-align: center;
+}
