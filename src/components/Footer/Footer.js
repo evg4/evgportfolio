@@ -16,7 +16,17 @@ function Footer() {
             );
           })}
         </div>
+        <div className={styles.links}>
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+          <Link to="/projects">Projects</Link>
+          <Link to="/blog">Blog</Link>
+          <Link to="/contact">Contact</Link>
+        </div>
       </div>
+
+      {/*
+      
       <div className={styles.footerDiv}>
         <p>Site map</p>
         <ul>
@@ -29,6 +39,7 @@ function Footer() {
           {/*<li>
             <Link to="/courses">Courses</Link>
           </li>*/}
+      {/*
           <li>
             <Link to="/projects">Projects</Link>
           </li>
@@ -44,7 +55,7 @@ function Footer() {
             <Link to="/contact">Contact</Link>
           </li>
         </ul>
-      </div>
+      </div>*/}
     </footer>
   );
 }
