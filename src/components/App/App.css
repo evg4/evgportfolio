@@ -9,6 +9,11 @@ body {
   padding: 0;
 }
 
+section {
+  margin: 5px auto;
+  padding: 5px;
+}
+
 h1 {
   font-size: 60px;
   text-align: center;

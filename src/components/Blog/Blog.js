@@ -4,12 +4,14 @@ import styles from "./Blog.module.css";
 
 function Blog() {
   return (
-    <section className={styles.blogPage}>
-      <div className={styles.preview}>
-        <BlogPreviews />
-      </div>
-      <div className={styles.archive}>
-        <Archive />
+    <section>
+      <div className={styles.blogPage}>
+        <div className={styles.preview}>
+          <BlogPreviews />
+        </div>
+        <div className={styles.archive}>
+          <Archive />
+        </div>
       </div>
     </section>
   );

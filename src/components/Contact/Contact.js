@@ -4,18 +4,20 @@ import journey from "../../assets/stepping-stones2.jpg";
 
 function Contact() {
   return (
-    <section className={styles.contact}>
-      <div className={styles.contact2}>
-        {" "}
-        <p>Let's keep in touch.</p>
-        <div className={styles.socials}>
-          {socials.map((social) => {
-            return (
-              <a href={social.link} target="_blank">
-                <img src={social.logo}></img>
-              </a>
-            );
-          })}
+    <section>
+      <div className={styles.contact}>
+        <div>
+          {" "}
+          <p>Let's keep in touch.</p>
+          <div className={styles.socials}>
+            {socials.map((social) => {
+              return (
+                <a href={social.link} target="_blank">
+                  <img src={social.logo}></img>
+                </a>
+              );
+            })}
+          </div>
         </div>
       </div>
     </section>

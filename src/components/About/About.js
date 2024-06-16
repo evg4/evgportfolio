@@ -5,7 +5,6 @@ function About() {
   return (
     <section>
       <div className={styles.about}>
-        <h2>About</h2>
         <p>
           The short version of my story is this: I’m a career-switcher, having
           started my career in the languages industry before landing my current
