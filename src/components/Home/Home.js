@@ -41,11 +41,13 @@ function Home() {
         <div className={styles.imgDiv}>
           <img src={photo}></img>
         </div>
+        <div className={styles.twitter}>
+          <TwitterTimeline />
+        </div>
       </div>
       <div className={styles.numbers}>
         <InNumbers />
       </div>
-      <TwitterTimeline />
     </section>
   );
 }
