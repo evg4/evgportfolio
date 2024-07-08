@@ -10,7 +10,7 @@ function Footer() {
         <div className={styles.socials}>
           {socials.map((social) => {
             return (
-              <a key={social.site} href={social.link} target="blank">
+              <a key={social.site} href={social.link} target="_blank">
                 <img src={social.logo}></img>
               </a>
             );
