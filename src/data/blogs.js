@@ -169,7 +169,8 @@ const blogs = [
     year: "2023",
     img: quizTeam,
     summaryText: "This form uses the useState() hook with a JavaScript object.",
-    fullText: "",
+    fullText:
+      "This is <a target=_blank href='https://evg4.github.io/quizmember/'>a simple form to register a quiz team member</a>. I built it to continue getting familiar with React, in particular the useState() hook with an object. It was also a good opportunity to practise using HTML forms again. The data entered doesn’t actually go anywhere.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -183,7 +184,8 @@ const blogs = [
     img: libraryRentals,
     summaryText:
       "More React practise - this time with a focus on useState() with an array.",
-    fullText: "",
+    fullText:
+      "<a target=_blank href='https://evg4.github.io/libraryrentals/'>Library rentals</a> is a webpage I built with React to practise using the useState() hook, this time with an array. Users are presented with tiles that represent books that are available in the library. Clicking on a book adds it to your personal reading list. Clicking on a book in your list will remove it. This is a front-end app only so the books added to the list are not stored anywhere.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -197,7 +199,8 @@ const blogs = [
     img: friendFrenzy,
     summaryText:
       "My second React app makes use of props and the useState() hook.",
-    fullText: "",
+    fullText:
+      "This webpage, <a target=_blank href='https://evg4.github.io/friendfrenzy/'>Friend Frenzy social media</a>, is another React practice project. I wanted to create a simple page to get to grips with props, so the actual functionality of the site is basic; if you click the button on a user’s card, their “Love received” value will increase. <br> Despite the site being basic, it was a useful exercise for learning about props, and I’m pleased with the appearance of the tiles, too. <br>Fun fact: I originally used names of my friends from my salsa class, but decided to change them before I published in case anyone took offence to the animal I’d chosen for them!",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -210,7 +213,8 @@ const blogs = [
     year: "2023",
     img: foodFacts,
     summaryText: "This is a basic webpage built using React.",
-    fullText: "",
+    fullText:
+      "<a target=_blank href='https://evg4.github.io/food-facts/'>Food facts</a> is the first webpage I created with React and JSX. The site is very basic; you can click on one of the images, and the box below displays some text relating to it. It took me a while to correctly render the images but in the process I learnt a few different ways to do it, so it was a great learning experience!",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -223,7 +227,8 @@ const blogs = [
     year: "2023",
     img: rhymes,
     summaryText: "My first API call!",
-    fullText: "",
+    fullText:
+      "This is the first project I made that makes use of an API call! It’s called <a target=_blank href='https://evg4.github.io/Rhyme-finder/'>Rhyme finder</a> and, as the name suggests, a user can type in a word and see other words or phrases that rhyme with it. They can also choose how many search results should be displayed. <br> I used async await syntax for the HTTP request and it retrieves data from the Datamuse API. There is also validation which triggers a pop up alert if the user presses the button without typing anything in the boxes.<br>I would have liked to have the results display in multiple columns to save the user needing to scroll down, though I wasn’t able to achieve that functionality at the time.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -237,7 +242,8 @@ const blogs = [
     img: quizzes,
     summaryText:
       "I created a bank of questions and answers to export for different quizzes.",
-    fullText: "",
+    fullText:
+      "I made a bank of quiz questions with three different quizzes as a way to practise importing and exporting modules in the Node environment. <br> In the first quiz, the player loses as soon as they get a question wrong. In the second, players have three lives. In the third quiz, a player can attempt all questions and they’ll see their score at the end. <br>See more details in my <a target=_blank href='https://github.com/evg4/Quizzes'>GitHub repo</a> with instructions on how to play.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -251,7 +257,8 @@ const blogs = [
     img: shapes,
     summaryText:
       "The main purpose of this was to practice importing and exporting JavaScript modules.",
-    fullText: "",
+    fullText:
+      "I built this website, <a target=_blank href='https://evg4.github.io/Shapes/index.html'>Shapes</a>, to practise exporting and importing functions in JavaScript, so the page itself is very basic and doesn’t do much! This was also the first time I had to spin up a local server to test as I built. <br> It also provided a good opportunity to practise CSS animations and transformations again.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -265,7 +272,8 @@ const blogs = [
     img: findYourHat,
     summaryText:
       "This started out as a JavaScript-only Codecademy challenge, but I made a webpage too. ",
-    fullText: "",
+    fullText:
+      "This project felt like a big step up in skills so it took me a while to get going! It was a challenge on the Codecademy Front-End Engineer path that was originally to practise using classes in node, and after I completed it I decided to repurpose it and create a web version, also called <a target=_blank href='https://evg4.github.io/Find-your-hat-web/'>Find your hat</a>. <br> The functionality is basic – for example I didn’t know how to create logic that would prevent it from landing on a configuration where no solution is available – but I was happy to take the challenge from Codecademy and expand on it, even if only in a simple way.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -278,7 +286,8 @@ const blogs = [
     year: "2023",
     img: portfolio,
     summaryText: "Here is my first portfolio! Featured on the Projects page.",
-    fullText: "",
+    fullText:
+      "This was the first <a target=_blank href='https://evg4.github.io/index.html'> Portfolio</a> that I built. I was really pleased with this; it was another Codecademy project, and the brief was to make a portfolio site with a separate Contacts page, but I decided to take it a bit further and do some other pages.<br>It took me a while to settle on a colour scheme (design isn’t my strong point!) but I’m happy with the minimalistic look.<br>The portfolio worked great when I didn’t have many projects, but as I added more and more, the Projects page started to look crowded, with too many buttons.<br>I also included everything together on one page – from small experiments that weren’t much by themselves, to full websites – so the better projects didn’t really stand out. Finally, it was built with plain JavaScript, HTML and CSS, so every time I wanted to add a new element, I had to copy and paste code then update it.<br>After I learnt React, I decided to rebuild my portfolio using that so I could take advantage of reusable components, and took the opportunity to create this Blogs page to document my learnings, however small, and a separate Projects page for the more substantial things I build.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -291,7 +300,8 @@ const blogs = [
     year: "2023",
     img: survey,
     summaryText: "I made this form to practise HTML forms. ",
-    fullText: "",
+    fullText:
+      "In a Facebook group for beginner coders, it seemed like the first thing anyone built was a HTML form. I added it to my list of ‘things to learn’ so I was pleased when I finally covered it in the Codecademy course! <br>This <a target=_blank href='https://evg4.github.io/Sweets-survey/'>Sweets and Chocolate survey</a> doesn’t actually do anything with the data you submit, but was a great way to practise different form elements and question types.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -305,7 +315,8 @@ const blogs = [
     img: colourChanger,
     summaryText:
       "It's finally time to incorporate JavaScript into my webpages! ",
-    fullText: "",
+    fullText:
+      "I was so excited to build this <a target=_blank href='https://evg4.github.io/Colour-changer/'>Colour Changer</a> and finally start making my websites interactive! Of course this is very basic, but it was a great way to get used to using event handlers. I used a switch statement to randomly select one of eight sentences when the Mystery button is clicked. ",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -319,7 +330,8 @@ const blogs = [
     img: bakery,
     summaryText:
       "This website focuses on transitions, transformations and animations using CSS.",
-    fullText: "",
+    fullText:
+      "I built this webpage, <a target=_blank href='https://evg4.github.io/Belle-s-bakery/'>Belle’s Bakery</a>, to practice using CSS animations and transitions, so the design leaves a lot to be desired because that wasn’t my priority!<br>I found the information on Codecademy regarding animations and transitions to not be as detailed as some of the other topics, but luckily I found some other good resources to fill the gaps.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -332,7 +344,8 @@ const blogs = [
     year: "2023",
     img: stammtisch,
     summaryText: "This site uses @media rulesets to make a webpage responsive.",
-    fullText: "",
+    fullText:
+      "For this project, I had to create a responsive website that was suitable for different screen sizes. I made <a target=_blank href='https://evg4.github.io/Stammtisch-Sundays/'> Stammtisch Sundays</a>, a website for a made-up group for people to practise speaking German. (In case anyone is wondering about the strange colour scheme, it’s designed to reflect the German flag!)<br>When the size of the browser is adjusted, the header and main text change size, and the layout of the images and map/text at the bottom adjust.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -346,7 +359,8 @@ const blogs = [
     img: meetTheTeam,
     summaryText:
       "I wanted to work out how to get a caption that appears on hover.",
-    fullText: "",
+    fullText:
+      "After finishing my previous project, <a target=_blank href='https://evg4.github.io/Green-Consulting/'>Green Consulting</a>, I looked at the Codecademy forums to see what other learners had created. I saw one example where the developer had added images with captions that appeared when the mouse hovered over it. I really liked how it looked so wanted to see if I could recreate it.<br>This <a target=_blank href='https://evg4.github.io/Meet-the-team/'>Meet the team</a> page is not a full website, but just a chance to try that. I was pleased that I managed, and it was nice to get inspiration from other people’s learnings!   ",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -360,7 +374,8 @@ const blogs = [
     img: greenConsulting,
     summaryText:
       "My largest project so far - putting everything together into one webpage.",
-    fullText: "",
+    fullText:
+      "After learning lots of skills in HMTL and CSS, I built this webpage <a target=_blank href='https://evg4.github.io/Green-Consulting/'>Green Consulting</a> to put everything together in one place.<br>My main focuses were using semantic HTML for better accessibility, a fixed header, and flexbox to resize/wrap the images.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
