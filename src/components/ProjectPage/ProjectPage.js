@@ -26,7 +26,7 @@ function ProjectPage() {
       <p>
         <strong>Languages and frameworks:</strong> {project.languages}
       </p>
-      <video width="320" height="240" controls>
+      <video src={project.video} width="80%" controls>
         Video not supported
       </video>
       <p>{project.details}</p>
