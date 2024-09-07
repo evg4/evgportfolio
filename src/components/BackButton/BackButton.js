@@ -1,10 +1,10 @@
 import styles from "./BackButton.module.css";
 import { Link } from "react-router-dom";
 
-function BackButton() {
+function BackButton(props) {
   return (
-    <Link to="/blog">
-      <button>Back to all posts</button>
+    <Link to={props.newLink}>
+      <button>{props.newLinkText}</button>
     </Link>
   );
 }

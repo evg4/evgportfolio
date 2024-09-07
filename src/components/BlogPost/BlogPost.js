@@ -22,7 +22,7 @@ function BlogPost() {
         <p>{parse(blog.fullText)}</p>
       </section>
       <div className={styles.buttons}>
-        <BackButton />
+        <BackButton newLink="/blog" newLinkText="Back to all blogs" />
         <div>
           <PreviousButton />
           <NextButton />

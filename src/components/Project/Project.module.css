@@ -29,7 +29,7 @@
   display: block;
 }
 
-a {
+.projectsSection a {
   text-decoration: none;
   color: black;
 }
