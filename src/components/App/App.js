@@ -29,7 +29,7 @@ const router = createBrowserRouter(
         <Route path="/blog/:title" element={<BlogPost />} />
         <Route path="/contact" element={<Contact />} />
       </Route>
-      <Route path="/projects/jammming" element={<JammmingLink />}></Route>
+      {/*<Route path="/projects/jammming" element={<JammmingLink />}></Route>*/}
     </>
   )
 );

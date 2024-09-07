@@ -24,8 +24,8 @@ function BlogPost() {
       <div className={styles.buttons}>
         <BackButton newLink="/blog" newLinkText="Back to all blogs" />
         <div>
-          <PreviousButton />
-          <NextButton />
+          <PreviousButton mainPath="/blog/" arrayToSearch={blogs} />
+          <NextButton mainPath="/blog/" arrayToSearch={blogs} />
         </div>
       </div>
     </div>

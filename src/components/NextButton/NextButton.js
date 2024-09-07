@@ -2,20 +2,27 @@ import styles from "./NextButton.module.css";
 import { useNavigate, useParams } from "react-router-dom";
 import blogs from "../../data/blogs";
 
-function NextButton() {
-  function handleClick() {
-    navigate(`/blog/${nextBlog}`);
-  }
+function NextButton(props) {
   const navigate = useNavigate();
   let { title } = useParams();
-  let blog = blogs.find((object) => object.title === title);
-  let nextBlog;
+  let currentItem = props.arrayToSearch.find(
+    (object) => object.title === title
+  );
+  let nextItem;
   let disabled;
-  if (blogs.indexOf(blog) + 1 >= blogs.length) {
-    nextBlog = "";
+  if (
+    props.arrayToSearch.indexOf(currentItem) + 1 >=
+    props.arrayToSearch.length
+  ) {
+    nextItem = "";
     disabled = true;
   } else {
-    nextBlog = blogs[blogs.indexOf(blog) + 1].title;
+    nextItem =
+      props.arrayToSearch[props.arrayToSearch.indexOf(currentItem) + 1].title;
+  }
+
+  function handleClick() {
+    navigate(`${props.mainPath}${nextItem}`);
   }
 
   return disabled ? (
@@ -28,3 +35,18 @@ function NextButton() {
 }
 
 export default NextButton;
+
+/*
+INSTRUCTIONS FOR USE
+In the component where this is being used, enter the following as props:
+-mainPath
+-arrayToSearch
+e.g. see BlogPost for example:
+<NextButton mainPath="/blog/" arrayToSearch={blogs} />
+
+note that the url is used to form the title ({ title } = useParams()), 
+which is then used to find the right item from the array 
+to determine which is currentItem and which is nextItem
+so make sure the setup matches that
+again, see BlogPost for example
+*/

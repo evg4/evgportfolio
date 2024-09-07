@@ -1,0 +1,13 @@
+.projectPage video {
+  border: 1px solid red;
+}
+
+.projectPage .inactiveLink {
+  border: 1px solid green;
+  display: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}

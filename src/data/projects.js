@@ -43,14 +43,14 @@ const projects = [
     details:
       "The aim of this project was to combine all skills learned so far in one React app.",
     image: jammming,
-    link: "http://localhost:3000/projects/jammming",
+    link: "",
   },
 
   {
     title: "Portfolio",
     date: "10.07.23",
     languages: "HTML, CSS, JavaScript",
-    description: "Coding portfolio.",
+    description: "My first coding portfolio.",
     details:
       "This was my first portfolio, built using plain HTML, CSS and JavaScript. The first version only had a few things on the Projects page, but as I completed more webpages, I wanted to keep adding them. The page began to look crowded, and I also realised React would be a much more efficient way to build this, so I replaced it with this website. But I was really proud of this when I first created it, as it was one of my first major projects, so I am including it here!",
     image: portfolio,
