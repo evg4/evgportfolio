@@ -10,6 +10,7 @@ import Home from "../Home/Home";
 import About from "../About/About";
 import Courses from "../Courses/Courses";
 import Projects from "../Projects/Projects";
+import ProjectPage from "../ProjectPage/ProjectPage";
 import JammmingLink from "../JammmingLink/JammmingLink";
 import Blog from "../Blog/Blog";
 import BlogPost from "../BlogPost/BlogPost";
@@ -23,6 +24,7 @@ const router = createBrowserRouter(
         <Route path="/about" element={<About />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/:title" element={<ProjectPage />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:title" element={<BlogPost />} />
         <Route path="/contact" element={<Contact />} />

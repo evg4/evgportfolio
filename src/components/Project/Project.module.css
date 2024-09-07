@@ -28,3 +28,8 @@
   margin: 0 auto;
   display: block;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}

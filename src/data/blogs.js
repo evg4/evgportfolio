@@ -389,7 +389,8 @@ const blogs = [
     img: superfoods2,
     summaryText:
       "Here is my second attempt at using the grid layout, based heavily on the previous design.",
-    fullText: "",
+    fullText:
+      "After building <a target=_blank href='https://evg4.github.io/Superfoods-v1/'> Superfoods v1</a> to practise using the grid layout, I realised there were ways it could be improved, so I had another go!<br> <a target=_blank href=''>Superfoods v2</a> uses max-width and min-width to change the size of the elements when the browser is resized, which makes it look better. I also changed the images so they don’t repeat within their container.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -404,7 +405,7 @@ const blogs = [
     summaryText:
       "This simple page was my first attempt at using the grid layout.",
     fullText:
-      "This will be several paragraphs of text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "I created a basic webpage called <a target=_blank href='https://evg4.github.io/Superfoods-v1/'> Superfoods</a> to practise using the grid layout. I didn’t find this particularly intuitive and it took a few tries to get it working how I wanted, but it was a good way to learn how it works and try a different layout.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -419,7 +420,7 @@ const blogs = [
     summaryText:
       "This webpage was for me to try out flexbox... with an interesting colour choice!",
     fullText:
-      "This will be several paragraphs of text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "I wanted to practise using flexbox so created this page, <a target=_blank href='https://evg4.github.io/Spanish/'>Spanish</a>, with boxes of various sizes. I experimented with the properties  flex-shrink, flex-grow and flex-wrap to allow the boxes to resize as the browser changed size. <br>I took colour inspiration from the Spanish flag but am aware it’s not the most aesthetically pleasing website!",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -433,7 +434,7 @@ const blogs = [
     img: styleGuide,
     summaryText: "A project to get used to different style elements.",
     fullText:
-      "This will be several paragraphs of text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "I created this <a target=_blank href='https://evg4.github.io/Website-style-guide/'>Website style guide</a> to get used to using different font styles, sizes and colours. I also made use of the id attribute to have links to each section of the page.<br> I wanted to make all the boxes in the Colours section the same size, but I haven’t learnt how to do that yet!",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -448,7 +449,7 @@ const blogs = [
     summaryText:
       "This Codecademy exercise was designed to practise tables in HTML.",
     fullText:
-      "This will be several paragraphs of text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "The first project I completed as part of the Codecademy Front-End Engineer path was this <a target=_blank href='https://evg4.github.io/css-colours/'>CSS Colours Cheatsheet</a>. The main purpose was to practise using tables in HTML, but it also serves as a reminder for different ways to set colours in CSS.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -463,7 +464,7 @@ const blogs = [
     summaryText:
       "My first project! I completed this as part of the SheCodes Basics course.",
     fullText:
-      "This was my first project, completed as part of the SheCodes Basics course. It only uses basic skills but was a great first project to inspire me to continue.",
+      "This was my first project, completed as the final challenge in the SheCodes Basics course. The task was to create a simple webpage to put into practice everything we had learnt, so I created this site, <a target=_blank href='https://evg4.github.io/Salsa-dancing/'>Salsa dancing</a>. <br>SheCodes covered HTML, CSS and JavaScript, but didn’t go into great depth in any of them; it provides a snapshot of the different languages to demonstrate what can be achieved.<br>For me, it was the perfect introduction to coding and helped confirm that I wanted to learn more.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
