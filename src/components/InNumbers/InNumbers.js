@@ -1,4 +1,5 @@
 import styles from "./InNumbers.module.css";
+import blogs from "../../data/blogs";
 
 function InNumbers() {
   let startDate = new Date("January 29, 23");
@@ -16,7 +17,8 @@ function InNumbers() {
         Certificates gained:<br></br> 8
       </p>
       <p>
-        Projects completed:<br></br> 27
+        Practice projects completed:<br></br>
+        {blogs.length}
       </p>
     </section>
   );
