@@ -55,7 +55,7 @@ function Nav() {
             Blog
           </NavLink>
         </li>
-        <li>
+       {/*} <li>
           <NavLink
             className={({ isActive }) =>
               isActive ? styles.activeNavLink : undefined
@@ -64,7 +64,7 @@ function Nav() {
           >
             Contact
           </NavLink>
-        </li>
+        </li>*/}
       </ul>
     </nav>
   );

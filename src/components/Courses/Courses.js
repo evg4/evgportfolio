@@ -2,7 +2,7 @@
 
 function Courses() {
     return <>
-    <p>This will be the courses page</p>
+    <p>Check back soon to see the courses I've completed!</p>
     </>
 }
 
