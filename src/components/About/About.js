@@ -273,8 +273,8 @@ function About() {
           with my career switch. <br></br>
           <br></br>
           If you’ve read this far, I hope you found my story interesting and
-          reassuring to know that it is possible! Feel free to{" "}
-          <Link to="/contact">reach out</Link> if you want to know more about my
+          reassuring to know that it is possible! Feel free to
+          reach out if you want to know more about my
           experience, or{" "}
           <Link to="/projects">check out some of my projects!</Link>
         </p>
