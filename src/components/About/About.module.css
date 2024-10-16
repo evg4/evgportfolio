@@ -1,25 +1,27 @@
 
-
-/** {border: 1px solid red;
+/*
+* {border: 1px solid red;
 }*/
 
-
 .about {
+    text-align: center;
     display: flex;
-    background-image: url(../../assets/me1.jpg);
-    background-size: cover;
-    width: 80%;
-    margin: 0 auto;
-    height: max-content;
-   
+    justify-content: center;
+    align-items: center;
 }
 
-.about p {
-    width: 40%;
-    padding: 35px;
-    
-}
-
-.about img {
+.about .left, .about .right {
     width: 50%;
+    margin: 15px;
 }
+
+
+.about .right img {
+    width: 100%;
+}
+
+
+
+
+
+

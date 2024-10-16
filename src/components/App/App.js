@@ -15,6 +15,7 @@ import JammmingLink from "../JammmingLink/JammmingLink";
 import Blog from "../Blog/Blog";
 import BlogPost from "../BlogPost/BlogPost";
 import Contact from "../Contact/Contact";
+import Story from "../Story/Story";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -28,6 +29,7 @@ const router = createBrowserRouter(
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:title" element={<BlogPost />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/about/story" element={<Story/>}></Route>
       </Route>
       {/*<Route path="/projects/jammming" element={<JammmingLink />}></Route>*/}
     </>
