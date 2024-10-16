@@ -38,10 +38,8 @@ function Home() {
           <br />
           Thanks for visiting!
         </p>
-        <div className={styles.imgDiv}>
-          <img src={photo}></img>
-        </div>
-       {/*} <div className={styles.twitter}>
+        {/*
+       } <div className={styles.twitter}>
           <TwitterTimeline />
         </div>*/}
       </div>

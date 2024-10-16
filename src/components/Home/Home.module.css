@@ -1,28 +1,18 @@
 .homeTop {
   display: flex;
-  width: 80%;
-  margin: 20px auto;
-  height: 1100px;
+  background-image: url(../../assets/me1.jpg);
+  background-size: cover;
+  width: 60%;
+  margin: 15px auto;
+  height: max-content;
+  border-radius: 5px;
 }
 
 .homeTop p {
   width: 40%;
-  margin: 5px auto;
+  margin: 35px;
 }
 
-.imgDiv {
-  display: block;
-  width: 40%;
- overflow-x: hidden;
-  margin: 5px auto;
-  border-radius: 5px;
-}
-
-.imgDiv img {
-  height: 100%;
-  margin: auto;
-  display: block;
-}
 
 /*.twitter {
   width: 25%;
@@ -31,7 +21,10 @@
 
 .numbers {
   border: 1px solid lightgray;
-  background-color: lightgrey;
+  background-image: url(../../assets/background.jpg);
+  background-size: cover;
   border-radius: 5px;
-  margin: 30px -5px;
+  margin: 30px auto;
+  margin-bottom: 5px;
+  width: 60%;
 }
