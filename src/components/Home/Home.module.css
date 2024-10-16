@@ -12,23 +12,22 @@
 
 .imgDiv {
   display: block;
-  width: 30%;
-  overflow-x: hidden;
+  width: 40%;
+ overflow-x: hidden;
   margin: 5px auto;
   border-radius: 5px;
 }
 
 .imgDiv img {
   height: 100%;
-
   margin: auto;
   display: block;
 }
 
-.twitter {
+/*.twitter {
   width: 25%;
   overflow-y: scroll;
-}
+}*/
 
 .numbers {
   border: 1px solid lightgray;

@@ -1,10 +1,12 @@
 import styles from "./About.module.css";
 import { Link } from "react-router-dom";
+import me1 from "../../assets/me1.jpg"
 
 function About() {
   return (
     <section>
       <div className={styles.about}>
+        
         <p>
           The short version of my story is this: I’m a career-switcher, having
           started my career in the languages industry before landing my current
@@ -31,11 +33,12 @@ function About() {
           <br></br>
           <br></br> Last but not least I’m a volunteer with Girlguiding, working
           towards their mission “helping all girls know they can do anything”.
-          If you want to see more of my coding work, check out the Projects page
-          and Blog. And if you’re interested in the longer version of my story,
+          If you want to see more of my coding work, check out the <Link to="/projects">Projects</Link> page
+          and <Link to="/blog">Blog</Link>. And if you’re interested in the longer version of my story,
           keep reading…<br></br>
           <br></br>
         </p>
+        
       </div>
       <div className={styles.story}>
         {" "}

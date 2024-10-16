@@ -10,8 +10,8 @@ body {
 }
 
 section {
-  margin: 5px auto;
-  padding: 5px;
+  margin: 10px auto;
+  padding: 10px;
 }
 
 h1 {
@@ -21,17 +21,21 @@ h1 {
 
 h2 {
   font-size: 40px;
-  margin: 5px;
+  margin: 10px;
   text-align: left;
   width: max-content;
 }
 
 h3 {
   font-size: 30px;
-  margin: 5px;
+  margin: 10px;
 }
 
 p {
   font-size: 25px;
-  margin: 5px;
+  margin: 10px;
+}
+
+button {
+  font-size: 30px;
 }

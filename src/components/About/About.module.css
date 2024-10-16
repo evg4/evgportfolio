@@ -1,1 +1,25 @@
 
+
+/** {border: 1px solid red;
+}*/
+
+
+.about {
+    display: flex;
+    background-image: url(../../assets/me1.jpg);
+    background-size: cover;
+    width: 80%;
+    margin: 0 auto;
+    height: max-content;
+   
+}
+
+.about p {
+    width: 40%;
+    padding: 35px;
+    
+}
+
+.about img {
+    width: 50%;
+}
