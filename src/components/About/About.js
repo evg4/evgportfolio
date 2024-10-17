@@ -27,8 +27,8 @@ function About() {
           journey of learning the low-code system of Pega!<br></br>
           <br></br> Outside of work, I still think of myself as a linguist. As
           well as keeping up with German, Spanish and Italian through
-          Netflix/books/chatting to friends, I’ve started learning Norwegian on
-          Duolingo ahead of my friend’s wedding there in August!<br></br>
+          Netflix/books/chatting to friends, I’m learning Norwegian on
+          Duolingo since my friend got married there in August!<br></br>
           <br></br> I’m also a keen salsa and bachata dancer and spend many a
           weekend travelling to different cities to go to dance classes.
           <br></br>

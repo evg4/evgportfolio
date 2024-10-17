@@ -17,9 +17,9 @@ function ProjectPage() {
       <p
         className={project.link !== "" ? styles.liveLink : styles.inactiveLink}
       >
-        <Link target="_blank" to={project.link}>
+        {/*<Link target="_blank" to={project.link}>
           Visit live site here
-        </Link>
+        </Link>*/}
       </p>
       <p>
         <strong>Date:</strong> {project.date}

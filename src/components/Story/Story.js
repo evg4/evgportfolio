@@ -25,11 +25,11 @@ function Story() {
       grammar rules – perhaps because I approached it like a maths problem
       to be solved? <br></br>
       <br></br>I ended up studying German and Spanish at A-level, along with
-      English language and Maths. I loved that maths was a break from the
+      English Language and Maths. I loved that maths was a break from the
       essay writing, and I just loved maths in general. It often took a
       while for the concepts to click (I was that annoying person in class
       asking too many questions), but once they did, I was fine. I always
-      said I would have loved to have studied further maths, too, but there
+      said I would have loved to have studied Further Maths, too, but there
       wasn’t enough room in my timetable. <br></br>
       <br></br>
     </p>
