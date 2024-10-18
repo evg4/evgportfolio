@@ -28,7 +28,7 @@ function BlogPreviews() {
   // end of unfinished section //
 
   return (
-    <section>
+    <section className={styles.previewSection}>
       {selected.map((blog) => {
         return (
           <div key={blog.title} className={styles.blogPreview}>

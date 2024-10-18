@@ -1,12 +1,19 @@
+/*
+* {border: 1px solid red;}
+*/
+
+
 .blogPage {
   display: flex;
-  justify-content: right;
   height: 100%;
+  padding: 0px;
 }
 
-.preview {
-  width: 50%;
-  margin: 0 auto;
+.preview { /*div within div within section */
+  width: 60%;
+  margin: 15px auto;
+  padding-top: 0px;
+  border-radius: 5px;
 }
 
 .archive {
@@ -16,4 +23,5 @@
   height: min-content;
   max-height: 100vh;
   overflow-y: auto;
+  margin: 0;
 }
