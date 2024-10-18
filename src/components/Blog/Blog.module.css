@@ -10,14 +10,13 @@
 }
 
 .preview { /*div within div within section */
-  width: 60%;
-  margin: 15px auto;
-  padding-top: 0px;
-  border-radius: 5px;
+  width: 50%;
+  margin: 15px ;
+  padding-top: 0px; 
 }
 
 .archive {
-  width: 30%;
+  width: 25%;
   position: sticky;
   top: 10px;
   height: min-content;

@@ -4,10 +4,12 @@
 }
 
 .blogPreview { /* div within a section */
-  border: 1px solid lightgray;
-  border-radius: 5px;
-  margin: 10px 0;
+  margin: 20px 0;
   margin-top: 0;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px black;
 }
 
 .blogPreview img {
