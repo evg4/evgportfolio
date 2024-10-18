@@ -13,6 +13,7 @@ function ProjectPage() {
 
   return (
     <section className={styles.projectPage}>
+      <div className={styles.projectTile}>
       <h2>{title}</h2>
       <p
         className={project.link !== "" ? styles.liveLink : styles.inactiveLink}
@@ -31,6 +32,8 @@ function ProjectPage() {
         Video not supported
       </video>
       <p>{parse(project.details)}</p>
+     
+      </div>
       <div className={styles.buttons}>
         {" "}
         <BackButton newLink="/projects" newLinkText="Back to all projects" />

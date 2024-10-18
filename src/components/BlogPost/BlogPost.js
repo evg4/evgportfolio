@@ -11,16 +11,13 @@ function BlogPost() {
   let { title } = useParams();
   let blog = blogs.find((object) => object.title === title);
   return (
-    <div className={styles.blogPost}>
-      <section>
+    <section className={styles.blogPostPage}>
+      <div className={styles.blogPost}>
         <h2>{title}</h2>
-        <Link target="_blank" to={blog.link}>
-          Visit live site here
-        </Link>
         <p>{`${blog.day}.${blog.month}.${blog.year}`}</p>
         <img src={blog.img}></img>
         <p>{parse(blog.fullText)}</p>
-      </section>
+      </div>
       <div className={styles.buttons}>
         <BackButton newLink="/blog" newLinkText="Back to all blogs" />
         <div>
@@ -28,7 +25,7 @@ function BlogPost() {
           <NextButton mainPath="/blog/" arrayToSearch={blogs} />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

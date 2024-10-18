@@ -2,6 +2,13 @@
   width: 65%;
 }
 
+.projectTile {
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px black;
+  padding: 15px;
+}
+
 .projectPage video {
   width: 100%;
   margin: 15px auto;
@@ -17,4 +24,5 @@
 .buttons {
   display: flex;
   justify-content: space-between;
+  margin: 10px 0;
 }
