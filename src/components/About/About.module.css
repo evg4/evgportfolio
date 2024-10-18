@@ -8,16 +8,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
 }
 
-.about .left, .about .right {
-    width: 50%;
-    margin: 15px;
+.about .tile {
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    margin: 30px;
+    padding: 15px;
+    height: 350px;
+    max-width: 550px;
 }
 
 
-.about .right img {
-    width: 100%;
+
+.about img {
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    margin: 30px;
 }
 
 
