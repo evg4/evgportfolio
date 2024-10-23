@@ -5,7 +5,7 @@ import BackButton from "../BackButton/BackButton";
 function Story() {
     return <section className={styles.story}>
     {" "}
-    
+    <div className={styles.text}>
     <h2>My story</h2>
     <p>
       If someone had told me when I graduated with a degree in German and
@@ -216,8 +216,7 @@ function Story() {
       small, fully remote company who I’d submitted my CV to (no long cover
       letter or behavioural questions for them!). <br></br>
       <br></br>
-      Within the space of a few days, I received offers for both – but it
-      was a very easy decision. The grad scheme was at a bank and as such
+      Within the space of a few days, I received offers for both. It was easy to decide which to choose; the grad scheme was at a bank and as such
       I’m sure it would have offered good opportunities for progression. But
       it was a low salary and the training programme was three years.{" "}
       <br></br>
@@ -245,6 +244,7 @@ function Story() {
       experience, or{" "}
       <Link to="/projects">check out some of my projects!</Link>
     </p>
+    </div>
     <BackButton newLink="/about" newLinkText="Back to About" />
   </section>
 }

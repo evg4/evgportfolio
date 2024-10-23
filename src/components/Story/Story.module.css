@@ -1,5 +1,16 @@
 .story {
     width: 50%;
-    /*border: 1px solid red;*/
-;
+}
+
+.story .text {
+    text-align: justify;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.story button {
+    margin: 20px auto;
 }
