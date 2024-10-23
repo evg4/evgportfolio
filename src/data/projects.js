@@ -21,6 +21,7 @@ const projects = [
     image: evgtrans,
     link: "https://evg-translations.netlify.app/",
     video: evgVid,
+    alt: "A screenshot of the 'Get in touch' page of Lizzie's EVG Translations website"
   },
   {
     title: "Redditmini",
@@ -32,6 +33,7 @@ const projects = [
     image: reddit,
     link: "https://evg-redditmini.netlify.app/",
     video: redditVid,
+    alt: "A screenshot of the homepage of Lizzie's Redditmini site, showing some reddit posts and a menu of subreddits on the left."
   },
   {
     title: "Recipe blog",
@@ -43,6 +45,7 @@ const projects = [
     image: recipe,
     link: "https://evg-recipe-blog.netlify.app/",
     video: recipeVid,
+    alt: "A screenshot of Lizzie's Recipe Blog site, showing a recipe for Greek Salad with an image."
   },
   {
     title: "Jammming",
@@ -54,6 +57,7 @@ const projects = [
     image: jammming,
     link: "",
     video: jammmingVid,
+    alt: "A screenshot of Lizzie's Jammming project. There are two columns: the left-hand column has a list a songs brought back by the search result, and the right-hand column is titled 'My new playlist' and contains songs underneath it."
   },
 
   {
@@ -66,6 +70,7 @@ const projects = [
     image: portfolio,
     link: "https://evg4.github.io/index.html",
     video: portfolioVid,
+    alt: "A screenshot of Lizzie's old Portfolio. The screen has buttons on the left corresponding to different projects, and a viewing window on the right to display the selected one."
   },
 ];
 

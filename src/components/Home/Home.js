@@ -1,13 +1,13 @@
 import styles from "./Home.module.css";
 import { Link } from "react-router-dom";
-import photo from "../../assets/sunflowers.jpg";
-import TwitterTimeline from "../TwitterTimeline/TwitterTimeline";
+/*import photo from "../../assets/sunflowers.jpg";*/
+/*import TwitterTimeline from "../TwitterTimeline/TwitterTimeline";*/
 import InNumbers from "../InNumbers/InNumbers";
 
 function Home() {
   return (
     <section className={styles.home}>
-      <div className={styles.homeTop}>
+      <div className={styles.homeTop} role="img" aria-label="Lizzie is standing against a pale curtain with yellow fairy lights. She's wearing glasses and a grey jumper dress, smiling at the camera.">
         <p>
           Hi, I’m Lizzie (she/her) – a linguist-turned-coder currently working
           as a Pega Apprentice.

@@ -4,7 +4,6 @@ import blogs from "../../data/blogs";
 import BackButton from "../BackButton/BackButton";
 import PreviousButton from "../PreviousButton/PreviousButton";
 import NextButton from "../NextButton/NextButton";
-import { Link } from "react-router-dom";
 import parse from "html-react-parser";
 
 function BlogPost() {
@@ -15,7 +14,7 @@ function BlogPost() {
       <div className={styles.blogPost}>
         <h2>{title}</h2>
         <p>{`${blog.day}.${blog.month}.${blog.year}`}</p>
-        <img src={blog.img}></img>
+        <img src={blog.img} alt={blog.alt}></img>
         <p>{parse(blog.fullText)}</p>
       </div>
       <div className={styles.buttons}>

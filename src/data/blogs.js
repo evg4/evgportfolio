@@ -43,6 +43,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's EduTaskHub project."
   },
   {
     title: "EVG Translations",
@@ -58,6 +59,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's EVG Translations website."
   },
   {
     title: "Redditmini",
@@ -73,6 +75,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's Redditmini project."
   },
   {
     title: "Flashcards",
@@ -87,6 +90,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's Flashcards project."
   },
   {
     title: "Packing list",
@@ -101,6 +105,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's Packing List project."
   },
   {
     title: "Appointment planner",
@@ -116,6 +121,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's Appointment Planner project."
   },
   {
     title: "Recipe blog",
@@ -131,6 +137,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's Recipe Blog project."
   },
   {
     title: "Jammming",
@@ -146,6 +153,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's Jammming project."
   },
   {
     title: "Timer",
@@ -160,6 +168,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's Timer project."
   },
   {
     title: "Quiz team registration",
@@ -174,6 +183,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's Quiz team registration website."
   },
   {
     title: "Library rentals",
@@ -189,6 +199,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's Library rentals project."
   },
   {
     title: "Friend Frenzy",
@@ -204,6 +215,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's Friend Frenzy project."
   },
   {
     title: "Food facts",
@@ -218,6 +230,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's Food Facts project."
   },
   {
     title: "Rhyme finder",
@@ -232,6 +245,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's Rhyme Finder project."
   },
   {
     title: "Quizzes",
@@ -247,6 +261,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's Quizzes project."
   },
   {
     title: "Shapes",
@@ -262,6 +277,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's Shapes website."
   },
   {
     title: "Find my hat",
@@ -277,6 +293,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's Find My Hat web page."
   },
   {
     title: "Portfolio",
@@ -291,6 +308,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's first portfolio."
   },
   {
     title: "Sweets and chocolate survey",
@@ -305,6 +323,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's Sweets and Chocolate Survey."
   },
   {
     title: "Colour changer",
@@ -320,6 +339,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's Colour Changer website."
   },
   {
     title: "Belle's Bakery",
@@ -335,6 +355,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's Belle's Bakery website."
   },
   {
     title: "Stammtisch Sundays",
@@ -349,6 +370,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's Stammtisch Sundays website."
   },
   {
     title: "Meet the team",
@@ -364,6 +386,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's Meet The Team practice."
   },
   {
     title: "Green Consulting",
@@ -379,6 +402,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's Green Consulting website."
   },
   {
     title: "Superfoods 2",
@@ -394,6 +418,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's Superfoods 2 webpage."
   },
   {
     title: "Superfoods 1",
@@ -409,6 +434,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's Superfoods 1 webpage."
   },
   {
     title: "Spanish",
@@ -424,6 +450,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's webpage about Spanish."
   },
   {
     title: "Website style guide",
@@ -438,6 +465,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's Website Style Guide webpage."
   },
   {
     title: "CSS colours cheatsheet",
@@ -453,6 +481,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's CSS Colours Cheatsheet."
   },
   {
     title: "Salsa dancing",
@@ -468,6 +497,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
+    alt: "A screenshot of Lizzie's Salsa Dancing webpage."
   },
 ];
 

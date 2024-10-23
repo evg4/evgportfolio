@@ -1,11 +1,9 @@
 import styles from "./About.module.css";
 import { Link } from "react-router-dom";
-import InNumbers from "../InNumbers/InNumbers";
+/*import InNumbers from "../InNumbers/InNumbers";*/
 import group1 from "../../assets/group1.jpg"
 import me2 from "../../assets/me2.jpg"
-import group2 from "../../assets/group2.JPEG"
 import group3 from "../../assets/group3.jpg"
-import me4 from "../../assets/me4.JPEG"
 import me5 from "../../assets/me5.jpg"
 
 
@@ -13,11 +11,11 @@ function About() {
   return (
     <section className={styles.about}>
       <div className={styles.imgs}>
-        <img src={group1} ></img>
-        <img src={me2} ></img>
+        <img src={group1} alt="Around 50 woman, of different ages and races, are standing or sitting on a stage. They are al smiling at the camera." ></img>
+        <img src={me2} alt="Lizzie, wearing a grey jumper dress, is chatting to a man wearing a navy suit."></img>
        {/*} <img src={group2} ></img>*/}
-        <img src={group3} ></img>
-        <img src={me5} ></img>
+        <img src={group3} alt="Lizzie stands with 4 other people - 3 women and 1 man - in front of posters for Cajigo and Epam. They are all smiling at the camera."></img>
+        <img src={me5} alt="Lizzie is wearing a Girlguiding uniform of white polo shirt and navy jacket. She has several metal badges. She is standing outside with grass and a building in the background, and smiling at the camera."></img>
       </div>
       <div className={styles.text}>
         <p>The short version of my story is this: I’m a career-switcher, having
