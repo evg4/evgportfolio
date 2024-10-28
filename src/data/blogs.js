@@ -1,3 +1,4 @@
+import messageGenerator from "../assets/messageGenerator.png";
 import eduTaskHub from "../assets/eduTaskHub.PNG";
 import evgtrans from "../assets/EVGTranslations.JPG";
 import reddit from "../assets/reddit-mini.JPG";
@@ -31,6 +32,21 @@ import salsa from "../assets/salsa.jpeg";
 
 const blogs = [
   {
+    title: "Message Generator",
+    link: "",
+    day: "28",
+    month: "10",
+    year: "2024",
+    img: messageGenerator,
+    summaryText: "A quick refresher on using JavaScript in Node.",
+    fullText:
+      "After a bit of a break from Codecademy due to starting my new job, I've now started on the Full-Stack Engineer career path. There was one challenge relating to JavaScript that I did in the name of completeness, even though it was going back to basics a bit. It was useful to have a refresher, though! <br><br> The concept is simple: upon running the programme, a random piece of advice is displayed to the user. The message changes each time it is run. I use arrays to hold adjectives and verb phrases, then use the Math.random() method to access a random index of each array and insert the value into a sentence. You can see the code on my <a target=_blank href='https://github.com/evg4/Message-generator'>Github profile</a>. ",
+    get fullDate() {
+      return `${this.day}.${this.month}.${this.year}`;
+    },
+    alt: "A screenshot of Lizzie's Message Generator project.",
+  },
+  {
     title: "EduTaskHub",
     link: "https://edutaskhub.netlify.app/",
     day: "01",
@@ -39,11 +55,11 @@ const blogs = [
     img: eduTaskHub,
     summaryText: "I worked on this with my mentor Jade Wilson.",
     fullText:
-      "During my job search I’ve been working with my mentor Jade Wilson to prepare for interviews. She set me the task of putting together an app called <a target=_blank href='https://edutaskhub.netlify.app/'>EduTaskHub</a>, with the aim of simplifying the assignment of homework for teachers and students. <br>It was a great learning process: Jade explained to me what interviewers are looking for with these types of take-home tasks, and helped me find areas for improvement in my implementation. I used Redux to manage the state in this app, though I now realise it would be better to use local state, except when changes in one component affects another. This was also the first project where I implemented testing, and I’ve discovered the value of writing tests early! <br>The project is unfinished, because I realised there is a lot that could be done better, and if I were to continue working on it I’d rather start from scratch to implement everything I learnt from Jade, but I’m proud of the work I did so still wanted to share it in my blog. The 'Add new coursework' button works - try it out!",
+      "During my job search I’ve been working with my mentor Jade Wilson to prepare for interviews. She set me the task of putting together an app called <a target=_blank href='https://edutaskhub.netlify.app/'>EduTaskHub</a>, with the aim of simplifying the assignment of homework for teachers and students. <br><br>It was a great learning process: Jade explained to me what interviewers are looking for with these types of take-home tasks, and helped me find areas for improvement in my implementation. I used Redux to manage the state in this app, though I now realise it would be better to use local state, except when changes in one component affects another. This was also the first project where I implemented testing, and I’ve discovered the value of writing tests early! <br><br>The project is unfinished, because I realised there is a lot that could be done better, and if I were to continue working on it I’d rather start from scratch to implement everything I learnt from Jade, but I’m proud of the work I did so still wanted to share it in my blog. The 'Add new coursework' button works - try it out!",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's EduTaskHub project."
+    alt: "A screenshot of Lizzie's EduTaskHub project.",
   },
   {
     title: "EVG Translations",
@@ -59,7 +75,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's EVG Translations website."
+    alt: "A screenshot of Lizzie's EVG Translations website.",
   },
   {
     title: "Redditmini",
@@ -71,11 +87,11 @@ const blogs = [
     summaryText:
       "This React app uses Redux and connects to the Reddit API. Featured on the Projects page.",
     fullText:
-      "This project, <a target=_blank href='https://evg-redditmini.netlify.app/'>Redditmini</a>, was bootstrapped with Create React App. It is an app which connects to the Reddit API (undocumented JSON API) to present a subset of the Reddit data. On first loading, the page view defaults to show posts from the r/popular subreddit. Users can then view that data, or change it by clicking on some predefined subreddits, or entering a search term. Users can click on an item from the list of results and it will take them to a more detailed view of the post, including comments. <br>This project was created using React and Redux as a way to practise key skills, including async thunks to fetch data and a store to manage state. CSS is used for styling, including animations during the loading state. <br>Challenges involved working out the best way to consistently display data, especially considering some posts had thumbnails only, some had better quality pictures, some had videos, and some had no images at all. I decided on using if/else statements to render something different depending on what the data was, but this may not be the best approach. Another challenge was that the sound does not play in the videos. This problem was also faced by other learners completing the same project. This is something I would like to come back to at a later date if I learn how to do it.",
+      "This project, <a target=_blank href='https://evg-redditmini.netlify.app/'>Redditmini</a>, was bootstrapped with Create React App. It is an app which connects to the Reddit API (undocumented JSON API) to present a subset of the Reddit data. On first loading, the page view defaults to show posts from the r/popular subreddit. Users can then view that data, or change it by clicking on some predefined subreddits, or entering a search term. Users can click on an item from the list of results and it will take them to a more detailed view of the post, including comments. <br>This project was created using React and Redux as a way to practise key skills, including async thunks to fetch data and a store to manage state. CSS is used for styling, including animations during the loading state. <br><br>Challenges involved working out the best way to consistently display data, especially considering some posts had thumbnails only, some had better quality pictures, some had videos, and some had no images at all. I decided on using if/else statements to render something different depending on what the data was, but this may not be the best approach. Another challenge was that the sound does not play in the videos. This problem was also faced by other learners completing the same project. This is something I would like to come back to at a later date if I learn how to do it.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's Redditmini project."
+    alt: "A screenshot of Lizzie's Redditmini project.",
   },
   {
     title: "Flashcards",
@@ -86,11 +102,11 @@ const blogs = [
     img: flashcards,
     summaryText: "This Codecademy project was to practise Redux.",
     fullText:
-      "This <a target=_blank href='https://evg-flashcards.netlify.app/'>Flashcards</a> project was completed as part of the Codecademy Front-End Engineer path. Routing was already implemented, as were components; the task was to create three new slices for different parts of the state and use other features of RTK to make the app functional. <br>On the Topics page, users can add topics they would like to study. On the New Quiz page, users can select from their topics and make flashcards to create a quiz. The quizzes can then be seen on the Quizzes page. Clicking on a quiz takes you to the flashcards within that quiz. You can click on the flashcard to swap between sides.",
+      "This <a target=_blank href='https://evg-flashcards.netlify.app/'>Flashcards</a> project was completed as part of the Codecademy Front-End Engineer path. Routing was already implemented, as were components; the task was to create three new slices for different parts of the state and use other features of RTK to make the app functional. <br><br>On the Topics page, users can add topics they would like to study. On the New Quiz page, users can select from their topics and make flashcards to create a quiz. The quizzes can then be seen on the Quizzes page. Clicking on a quiz takes you to the flashcards within that quiz. You can click on the flashcard to swap between sides.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's Flashcards project."
+    alt: "A screenshot of Lizzie's Flashcards project.",
   },
   {
     title: "Packing list",
@@ -101,11 +117,11 @@ const blogs = [
     img: packingList,
     summaryText: "I created this app to help me understand the Redux toolkit.",
     fullText:
-      "I created this <a target=_blank href='https://evg-packing-list.netlify.app/'>packing list</a> to practise using the Redux Toolkit. I started off with very basic Redux syntax, with one state (no slices) and all action creators and a single reducer in one file. Then I split it into slices, with a separate file for each. Finally, I refactored again to make use of createSlice() and configureStore(). <br> This process really helped me understand the concepts and it meant I could make sure the basics were working as expected before I moved on to using the RTK. In some files I left the previous code, commented out, so I can refer back to it if needed. <br> Users are not able to add the same item twice. They can toggle each item between ticked/unticked, and remove an item from the list. They can also hide the packed (ticked) items, or show all. <br>The styling is only basic; the focus here was practising Redux, not creating a polished final product.",
+      "I created this <a target=_blank href='https://evg-packing-list.netlify.app/'>packing list</a> to practise using the Redux Toolkit. I started off with very basic Redux syntax, with one state (no slices) and all action creators and a single reducer in one file. Then I split it into slices, with a separate file for each. Finally, I refactored again to make use of createSlice() and configureStore(). This process really helped me understand the concepts and it meant I could make sure the basics were working as expected before I moved on to using the RTK. In some files I left the previous code, commented out, so I can refer back to it if needed. <br><br>Users are not able to add the same item twice. They can toggle each item between ticked/unticked, and remove an item from the list. They can also hide the packed (ticked) items, or show all. <br>The styling is only basic; the focus here was practising Redux, not creating a polished final product.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's Packing List project."
+    alt: "A screenshot of Lizzie's Packing List project.",
   },
   {
     title: "Appointment planner",
@@ -117,11 +133,11 @@ const blogs = [
     summaryText:
       "This Codecademy project combines React Routing, HTML forms, and React hooks.",
     fullText:
-      "This <a target=_blank href='https://evg-appointment-planner.netlify.app/'>appointment planner</a> was part of the Codecademy Front-End Engineer path. The routing was already implemented, and the task involved following instructions to complete the rest of the components and make them interact with each other. It puts into practice the following skills: useEffect() hook; useState() hook; props; and HTML forms. <br> The app allows a user to add contacts on the /contacts page, and then create new appointments on the /appointments page, choosing from a drop-down list of the contacts they added.",
+      "This <a target=_blank href='https://evg-appointment-planner.netlify.app/'>appointment planner</a> was part of the Codecademy Front-End Engineer path. The routing was already implemented, and the task involved following instructions to complete the rest of the components and make them interact with each other. It puts into practice the following skills: useEffect() hook; useState() hook; props; and HTML forms. <br><br> The app allows a user to add contacts on the /contacts page, and then create new appointments on the /appointments page, choosing from a drop-down list of the contacts they added.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's Appointment Planner project."
+    alt: "A screenshot of Lizzie's Appointment Planner project.",
   },
   {
     title: "Recipe blog",
@@ -137,7 +153,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's Recipe Blog project."
+    alt: "A screenshot of Lizzie's Recipe Blog project.",
   },
   {
     title: "Jammming",
@@ -149,11 +165,11 @@ const blogs = [
     summaryText:
       "This webapp connects to the Spotify API. Featured on the Projects page.",
     fullText:
-      "One of the projects in Codecademy’s Front-End Engineer path was <a target=_blank href=''>Jammming</a> - an app which connects to the Spotify API to allow users to search for songs, add them to a playlist then save it to their own Spotify account. I personalised it by adding the ability to play a sample of the song, and ‘previous’ and ‘next’ buttons to display more pages of results. <br> I have not been able to deploy this as the Spotify API only allows apps that are in development mode to be authorised by 10 users. However, here is <a target=_blank href=' http://localhost:3000/projects/jammming' > a video of how it works</a>.",
+      "One of the projects in Codecademy’s Front-End Engineer path was Jammming - an app which connects to the Spotify API to allow users to search for songs, add them to a playlist then save it to their own Spotify account. I personalised it by adding the ability to play a sample of the song, and ‘previous’ and ‘next’ buttons to display more pages of results. <br><br> I have not been able to deploy this as the Spotify API only allows apps that are in development mode to be authorised by 10 users. However, visit the Projects page for <Link to='/projects'> a video of how it works</Link>.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's Jammming project."
+    alt: "A screenshot of Lizzie's Jammming project.",
   },
   {
     title: "Timer",
@@ -168,7 +184,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's Timer project."
+    alt: "A screenshot of Lizzie's Timer project.",
   },
   {
     title: "Quiz team registration",
@@ -183,7 +199,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's Quiz team registration website."
+    alt: "A screenshot of Lizzie's Quiz team registration website.",
   },
   {
     title: "Library rentals",
@@ -199,7 +215,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's Library rentals project."
+    alt: "A screenshot of Lizzie's Library rentals project.",
   },
   {
     title: "Friend Frenzy",
@@ -215,7 +231,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's Friend Frenzy project."
+    alt: "A screenshot of Lizzie's Friend Frenzy project.",
   },
   {
     title: "Food facts",
@@ -230,7 +246,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's Food Facts project."
+    alt: "A screenshot of Lizzie's Food Facts project.",
   },
   {
     title: "Rhyme finder",
@@ -245,7 +261,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's Rhyme Finder project."
+    alt: "A screenshot of Lizzie's Rhyme Finder project.",
   },
   {
     title: "Quizzes",
@@ -261,7 +277,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's Quizzes project."
+    alt: "A screenshot of Lizzie's Quizzes project.",
   },
   {
     title: "Shapes",
@@ -277,7 +293,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's Shapes website."
+    alt: "A screenshot of Lizzie's Shapes website.",
   },
   {
     title: "Find my hat",
@@ -293,7 +309,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's Find My Hat web page."
+    alt: "A screenshot of Lizzie's Find My Hat web page.",
   },
   {
     title: "Portfolio",
@@ -308,7 +324,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's first portfolio."
+    alt: "A screenshot of Lizzie's first portfolio.",
   },
   {
     title: "Sweets and chocolate survey",
@@ -323,7 +339,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's Sweets and Chocolate Survey."
+    alt: "A screenshot of Lizzie's Sweets and Chocolate Survey.",
   },
   {
     title: "Colour changer",
@@ -339,7 +355,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's Colour Changer website."
+    alt: "A screenshot of Lizzie's Colour Changer website.",
   },
   {
     title: "Belle's Bakery",
@@ -355,7 +371,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's Belle's Bakery website."
+    alt: "A screenshot of Lizzie's Belle's Bakery website.",
   },
   {
     title: "Stammtisch Sundays",
@@ -370,7 +386,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's Stammtisch Sundays website."
+    alt: "A screenshot of Lizzie's Stammtisch Sundays website.",
   },
   {
     title: "Meet the team",
@@ -386,7 +402,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's Meet The Team practice."
+    alt: "A screenshot of Lizzie's Meet The Team practice.",
   },
   {
     title: "Green Consulting",
@@ -402,7 +418,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's Green Consulting website."
+    alt: "A screenshot of Lizzie's Green Consulting website.",
   },
   {
     title: "Superfoods 2",
@@ -418,7 +434,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's Superfoods 2 webpage."
+    alt: "A screenshot of Lizzie's Superfoods 2 webpage.",
   },
   {
     title: "Superfoods 1",
@@ -434,7 +450,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's Superfoods 1 webpage."
+    alt: "A screenshot of Lizzie's Superfoods 1 webpage.",
   },
   {
     title: "Spanish",
@@ -450,7 +466,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's webpage about Spanish."
+    alt: "A screenshot of Lizzie's webpage about Spanish.",
   },
   {
     title: "Website style guide",
@@ -465,7 +481,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's Website Style Guide webpage."
+    alt: "A screenshot of Lizzie's Website Style Guide webpage.",
   },
   {
     title: "CSS colours cheatsheet",
@@ -481,7 +497,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's CSS Colours Cheatsheet."
+    alt: "A screenshot of Lizzie's CSS Colours Cheatsheet.",
   },
   {
     title: "Salsa dancing",
@@ -497,7 +513,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Lizzie's Salsa Dancing webpage."
+    alt: "A screenshot of Lizzie's Salsa Dancing webpage.",
   },
 ];
 
