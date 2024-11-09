@@ -10,3 +10,13 @@
   border-radius: 5px;
   padding: 15px;
 }
+
+@media only screen and (max-width: 580px) {
+  .numbersDiv p {
+    padding: 10px;
+  }
+  .numbersDiv {
+    margin: 10px;
+    flex-direction: column;
+  }
+}

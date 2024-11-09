@@ -2,7 +2,9 @@
   display: flex;
   background-image: url(../../assets/me1.jpg);
   background-size: cover;
-  width: 60%;
+  /*background-position: right bottom;*/
+  background-color: rgba(1, 1, 1, 0.1);
+  width: 1400px;
   margin: 15px auto;
   height: max-content;
   border: 1px solid black;
@@ -13,8 +15,10 @@
 .homeTop p {
   width: 40%;
   margin: 35px;
+  /* background-color: rgba(1, 1, 1, 0.1);
+  border-radius: 5px;
+  padding: 15px;*/
 }
-
 
 /*.twitter {
   width: 25%;
@@ -26,8 +30,75 @@
   background-size: cover;
   margin: 30px auto;
   margin-bottom: 5px;
-  width: 60%;
+  width: 1400px;
   border: 1px solid black;
   border-radius: 5px;
   box-shadow: 5px 5px 5px black;
+}
+
+@media only screen and (max-width: 1545px) {
+  .homeTop {
+    width: 1000px;
+    height: auto;
+  }
+
+  .homeTop p {
+    font-size: 20px;
+    width: 45%;
+    margin: 30px;
+  }
+  .numbers {
+    width: 1000px;
+  }
+}
+
+@media only screen and (max-width: 1090px) {
+  .homeTop {
+    width: 800px;
+    height: auto;
+  }
+
+  .homeTop p {
+    font-size: 18px;
+    width: 55%;
+    margin: 20px;
+  }
+  .numbers {
+    width: 800px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .homeTop {
+    width: 80%;
+    height: 500px;
+  }
+
+  .homeTop p {
+    font-size: 15px;
+    width: 50%;
+    height: 90%;
+    overflow-y: auto;
+  }
+  .numbers {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .homeTop {
+    height: 400px;
+  }
+  .homeTop p {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .homeTop {
+    height: 300px;
+  }
+  .homeTop p {
+    width: 40%;
+  }
 }
