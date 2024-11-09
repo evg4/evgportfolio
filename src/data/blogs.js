@@ -149,7 +149,7 @@ const blogs = [
     summaryText:
       "A React app using React Routing. Featured on the Projects page.",
     fullText:
-      "I’m really proud of this <a target=_blank href='https://evg-recipe-blog.netlify.app/'>recipe blog</a>, which I built to practise React Routing. <br> On the 'Recipes' page, there's a list of recipes which can be sorted in different ways. This was achieved with searchParams. There is also a search field which filters the recipes according to the user's search term and uses createSearchParams. You can then click into each recipe and the relevant info is displayed. There is a 'back' button which uses useNavigate() to move through the history stack.",
+      "I’m really proud of this <a target=_blank href='https://evg-recipe-blog.netlify.app/'>recipe blog</a>, which I built to practise React Routing. <br><br> On the 'Recipes' page, there's a list of recipes which can be sorted in different ways. This was achieved with searchParams. There is also a search field which filters the recipes according to the user's search term and uses createSearchParams. You can then click into each recipe and the relevant info is displayed. There is a 'back' button which uses useNavigate() to move through the history stack.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -165,7 +165,7 @@ const blogs = [
     summaryText:
       "This webapp connects to the Spotify API. Featured on the Projects page.",
     fullText:
-      "One of the projects in Codecademy’s Front-End Engineer path was Jammming - an app which connects to the Spotify API to allow users to search for songs, add them to a playlist then save it to their own Spotify account. I personalised it by adding the ability to play a sample of the song, and ‘previous’ and ‘next’ buttons to display more pages of results. <br><br> I have not been able to deploy this as the Spotify API only allows apps that are in development mode to be authorised by 10 users. However, visit the Projects page for <Link to='/projects'> a video of how it works</Link>.",
+      "One of the projects in Codecademy’s Front-End Engineer path was Jammming - an app which connects to the Spotify API to allow users to search for songs, add them to a playlist then save it to their own Spotify account. I personalised it by adding the ability to play a sample of the song, and ‘previous’ and ‘next’ buttons to display more pages of results. <br><br> I have not been able to deploy this as the Spotify API only allows apps that are in development mode to be authorised by 10 users. However, visit the <a href='/projects/Jammming'>Projects page</a> for a video of how it works</Link>.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -227,7 +227,7 @@ const blogs = [
     summaryText:
       "My second React app makes use of props and the useState() hook.",
     fullText:
-      "This webpage, <a target=_blank href='https://evg4.github.io/friendfrenzy/'>Friend Frenzy social media</a>, is another React practice project. I wanted to create a simple page to get to grips with props, so the actual functionality of the site is basic; if you click the button on a user’s card, their “Love received” value will increase. <br> Despite the site being basic, it was a useful exercise for learning about props, and I’m pleased with the appearance of the tiles, too. <br>Fun fact: I originally used names of my friends from my salsa class, but decided to change them before I published in case anyone took offence to the animal I’d chosen for them!",
+      "This webpage, <a target=_blank href='https://evg4.github.io/friendfrenzy/'>Friend Frenzy social media</a>, is another React practice project. I wanted to create a simple page to get to grips with props, so the actual functionality of the site is basic; if you click the button on a user’s card, their “Love received” value will increase. <br><br> Despite the site being basic, it was a useful exercise for learning about props, and I’m pleased with the appearance of the tiles, too. <br>Fun fact: I originally used names of my friends from my salsa class, but decided to change them before I published in case anyone took offence to the animal I’d chosen for them!",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -257,7 +257,7 @@ const blogs = [
     img: rhymes,
     summaryText: "My first API call!",
     fullText:
-      "This is the first project I made that makes use of an API call! It’s called <a target=_blank href='https://evg4.github.io/Rhyme-finder/'>Rhyme finder</a> and, as the name suggests, a user can type in a word and see other words or phrases that rhyme with it. They can also choose how many search results should be displayed. <br> I used async await syntax for the HTTP request and it retrieves data from the Datamuse API. There is also validation which triggers a pop up alert if the user presses the button without typing anything in the boxes.<br>I would have liked to have the results display in multiple columns to save the user needing to scroll down, though I wasn’t able to achieve that functionality at the time.",
+      "This is the first project I made that makes use of an API call! It’s called <a target=_blank href='https://evg4.github.io/Rhyme-finder/'>Rhyme finder</a> and, as the name suggests, a user can type in a word and see other words or phrases that rhyme with it. They can also choose how many search results should be displayed. <br><br> I used async await syntax for the HTTP request and it retrieves data from the Datamuse API. There is also validation which triggers a pop up alert if the user presses the button without typing anything in the boxes.<br>I would have liked to have the results display in multiple columns to save the user needing to scroll down, though I wasn’t able to achieve that functionality at the time.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -320,7 +320,7 @@ const blogs = [
     img: portfolio,
     summaryText: "Here is my first portfolio! Featured on the Projects page.",
     fullText:
-      "This was the first <a target=_blank href='https://evg4.github.io/index.html'> Portfolio</a> that I built. I was really pleased with this; it was another Codecademy project, and the brief was to make a portfolio site with a separate Contacts page, but I decided to take it a bit further and do some other pages.<br>It took me a while to settle on a colour scheme (design isn’t my strong point!) but I’m happy with the minimalistic look.<br>The portfolio worked great when I didn’t have many projects, but as I added more and more, the Projects page started to look crowded, with too many buttons.<br>I also included everything together on one page – from small experiments that weren’t much by themselves, to full websites – so the better projects didn’t really stand out. Finally, it was built with plain JavaScript, HTML and CSS, so every time I wanted to add a new element, I had to copy and paste code then update it.<br>After I learnt React, I decided to rebuild my portfolio using that so I could take advantage of reusable components, and took the opportunity to create this Blogs page to document my learnings, however small, and a separate Projects page for the more substantial things I build.",
+      "This was the first <a target=_blank href='https://evg4.github.io/index.html'> Portfolio</a> that I built. I was really pleased with this; it was another Codecademy project, and the brief was to make a portfolio site with a separate Contacts page, but I decided to take it a bit further and do some other pages.<br>It took me a while to settle on a colour scheme (design isn’t my strong point!) but I’m happy with the minimalistic look.<br>The portfolio worked great when I didn’t have many projects, but as I added more and more, the Projects page started to look crowded, with too many buttons.<br><br>I also included everything together on one page – from small experiments that weren’t much by themselves, to full websites – so the better projects didn’t really stand out. Finally, it was built with plain JavaScript, HTML and CSS, so every time I wanted to add a new element, I had to copy and paste code then update it.<br><br>After I learnt React, I decided to rebuild my portfolio using that so I could take advantage of reusable components, and took the opportunity to create this Blogs page to document my learnings, however small, and a separate Projects page for the more substantial things I build.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
