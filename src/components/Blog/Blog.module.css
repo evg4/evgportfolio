@@ -1,18 +1,14 @@
-/*
-* {border: 1px solid red;}
-*/
-
-
 .blogPage {
   display: flex;
   height: 100%;
   padding: 0px;
 }
 
-.preview { /*div within div within section */
+.preview {
+  /*div within div within section */
   width: 50%;
-  margin: 15px ;
-  padding-top: 0px; 
+  margin: 15px;
+  padding-top: 0px;
 }
 
 .archive {
@@ -23,4 +19,44 @@
   max-height: 100vh;
   overflow-y: auto;
   margin: 0;
+}
+
+@media only screen and (max-width: 850px) {
+  .archive {
+    width: 30%;
+  }
+  .preview {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .archive {
+    width: 35%;
+  }
+  .preview {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .blogPage {
+    flex-direction: column;
+  }
+
+  .preview {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .archive {
+    z-index: 20;
+    background-color: white;
+    top: 0px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 20px 30px white;
+    width: 100%;
+  }
 }
