@@ -20,6 +20,10 @@
   padding: 15px;*/
 }
 
+.hidden {
+  display: none;
+}
+
 /*.twitter {
   width: 25%;
   overflow-y: scroll;
@@ -100,5 +104,26 @@
   }
   .homeTop p {
     width: 40%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .homeTop p {
+    display: none;
+  }
+
+  .homeTop {
+    background-position: right bottom;
+  }
+
+  .hidden {
+    display: block;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    margin: 15px auto;
+    background-image: url(../../assets/background.jpg);
+    background-size: cover;
+    width: 80%;
   }
 }

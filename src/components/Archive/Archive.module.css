@@ -8,11 +8,11 @@
 .archive summary,
 .archive details,
 .archive p {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .year {
-  font-size: 30px;
+  font-size: 25px;
   margin: 5px;
   margin-left: 5px;
 }
@@ -20,9 +20,42 @@
 .month {
   margin: 5px;
   margin-left: 20px;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .day a {
-  font-size: 30px;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 1545px) {
+  .archive p,
+  .archive summary,
+  .archive details,
+  .year,
+  .month,
+  .day a {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1090px) {
+  .archive p,
+  .archive summary,
+  .archive details,
+  .year,
+  .month,
+  .day a {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .archive p,
+  .archive summary,
+  .archive details,
+  .year,
+  .month,
+  .day a {
+    font-size: 15px;
+  }
 }

@@ -27,3 +27,30 @@ nav li:hover {
   font-weight: bold;
   text-decoration: underline;
 }
+
+@media only screen and (max-width: 1090px) {
+  .nav a {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .nav a {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .nav a {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .nav a {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+}
