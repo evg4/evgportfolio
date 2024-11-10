@@ -29,7 +29,7 @@ const router = createBrowserRouter(
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:title" element={<BlogPost />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/about/story" element={<Story/>}></Route>
+        <Route path="/about/story" element={<Story />}></Route>
       </Route>
       {/*<Route path="/projects/jammming" element={<JammmingLink />}></Route>*/}
     </>
@@ -37,7 +37,7 @@ const router = createBrowserRouter(
 );
 
 function App() {
-  return <RouterProvider router={router} />;
+  return <RouterProvider router={router}></RouterProvider>;
 }
 
 export default App;
