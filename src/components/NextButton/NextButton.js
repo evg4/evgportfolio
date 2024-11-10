@@ -25,11 +25,13 @@ function NextButton(props) {
   }
 
   return disabled ? (
-    <button disabled onClick={handleClick}>
+    <button className={styles.navButton} disabled onClick={handleClick}>
       &gt;&gt;
     </button>
   ) : (
-    <button onClick={handleClick}>&gt;&gt;</button>
+    <button className={styles.navButton} onClick={handleClick}>
+      &gt;&gt;
+    </button>
   );
 }
 

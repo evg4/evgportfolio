@@ -1,0 +1,17 @@
+.navButton {
+  margin: 5px;
+  padding: 5px;
+  font-size: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px black;
+  color: black;
+}
+
+.navButton:enabled:hover {
+  cursor: pointer;
+  transform: scale(1.05, 1.05);
+}
+
+.navButton:disabled {
+  color: lightgrey;
+}
