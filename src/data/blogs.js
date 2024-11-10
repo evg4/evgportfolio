@@ -313,14 +313,14 @@ const blogs = [
   },
   {
     title: "Portfolio",
-    link: "https://evg4.github.io/index.html",
+    link: "https://evg4.github.io/old-portfolio/",
     day: "10",
     month: "07",
     year: "2023",
     img: portfolio,
     summaryText: "Here is my first portfolio! Featured on the Projects page.",
     fullText:
-      "This was the first <a target=_blank href='https://evg4.github.io/index.html'> Portfolio</a> that I built. I was really pleased with this; it was another Codecademy project, and the brief was to make a portfolio site with a separate Contacts page, but I decided to take it a bit further and do some other pages.<br>It took me a while to settle on a colour scheme (design isn’t my strong point!) but I’m happy with the minimalistic look.<br>The portfolio worked great when I didn’t have many projects, but as I added more and more, the Projects page started to look crowded, with too many buttons.<br><br>I also included everything together on one page – from small experiments that weren’t much by themselves, to full websites – so the better projects didn’t really stand out. Finally, it was built with plain JavaScript, HTML and CSS, so every time I wanted to add a new element, I had to copy and paste code then update it.<br><br>After I learnt React, I decided to rebuild my portfolio using that so I could take advantage of reusable components, and took the opportunity to create this Blogs page to document my learnings, however small, and a separate Projects page for the more substantial things I build.",
+      "This was the first <a target=_blank href='https://evg4.github.io/old-portfolio/'> Portfolio</a> that I built. I was really pleased with this; it was another Codecademy project, and the brief was to make a portfolio site with a separate Contacts page, but I decided to take it a bit further and do some other pages.<br>It took me a while to settle on a colour scheme (design isn’t my strong point!) but I’m happy with the minimalistic look.<br>The portfolio worked great when I didn’t have many projects, but as I added more and more, the Projects page started to look crowded, with too many buttons.<br><br>I also included everything together on one page – from small experiments that weren’t much by themselves, to full websites – so the better projects didn’t really stand out. Finally, it was built with plain JavaScript, HTML and CSS, so every time I wanted to add a new element, I had to copy and paste code then update it.<br><br>After I learnt React, I decided to rebuild my portfolio using that so I could take advantage of reusable components, and took the opportunity to create this Blogs page to document my learnings, however small, and a separate Projects page for the more substantial things I build.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },

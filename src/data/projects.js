@@ -4,11 +4,11 @@ import recipe from "../assets/recipe-blog.JPG";
 import jammming from "../assets/Jammming.PNG";
 import portfolio from "../assets/portfolio.PNG";
 
-import evgVid from "../assets/evgtranslations.mp4"
-import redditVid from "../assets/redditmini.mp4"
-import recipeVid from "../assets/recipeblog.mp4"
+import evgVid from "../assets/evgtranslations.mp4";
+import redditVid from "../assets/redditmini.mp4";
+import recipeVid from "../assets/recipeblog.mp4";
 import jammmingVid from "../assets/jammming.mp4";
-import portfolioVid from "../assets/portfolio.mp4"
+import portfolioVid from "../assets/portfolio.mp4";
 
 const projects = [
   {
@@ -21,7 +21,7 @@ const projects = [
     image: evgtrans,
     link: "https://evg-translations.netlify.app/",
     video: evgVid,
-    alt: "A screenshot of the 'Get in touch' page of Lizzie's EVG Translations website"
+    alt: "A screenshot of the 'Get in touch' page of Lizzie's EVG Translations website",
   },
   {
     title: "Redditmini",
@@ -33,7 +33,7 @@ const projects = [
     image: reddit,
     link: "https://evg-redditmini.netlify.app/",
     video: redditVid,
-    alt: "A screenshot of the homepage of Lizzie's Redditmini site, showing some reddit posts and a menu of subreddits on the left."
+    alt: "A screenshot of the homepage of Lizzie's Redditmini site, showing some reddit posts and a menu of subreddits on the left.",
   },
   {
     title: "Recipe blog",
@@ -45,7 +45,7 @@ const projects = [
     image: recipe,
     link: "https://evg-recipe-blog.netlify.app/",
     video: recipeVid,
-    alt: "A screenshot of Lizzie's Recipe Blog site, showing a recipe for Greek Salad with an image."
+    alt: "A screenshot of Lizzie's Recipe Blog site, showing a recipe for Greek Salad with an image.",
   },
   {
     title: "Jammming",
@@ -57,7 +57,7 @@ const projects = [
     image: jammming,
     link: "",
     video: jammmingVid,
-    alt: "A screenshot of Lizzie's Jammming project. There are two columns: the left-hand column has a list a songs brought back by the search result, and the right-hand column is titled 'My new playlist' and contains songs underneath it."
+    alt: "A screenshot of Lizzie's Jammming project. There are two columns: the left-hand column has a list a songs brought back by the search result, and the right-hand column is titled 'My new playlist' and contains songs underneath it.",
   },
 
   {
@@ -66,11 +66,11 @@ const projects = [
     languages: "HTML, CSS, JavaScript",
     description: "My first coding portfolio.",
     details:
-      "This was my first <a target=_blank href=' https://evg4.github.io/index.html '> portfolio</a>, built using plain HTML, CSS and JavaScript. Eventually I realised React would be a much more efficient way to build this, so I replaced it with this website. But I was really proud of this when I first created it, as it was one of my first major projects, so I am including it here!   <br><br><strong>How it works:</strong> <br>The site is self-explanatory. The Projects page features completed projects, but also small experiments and unfinished projects. There’s also information on the courses I’ve completed on the Courses page, and an About and Contact page.<br><br><strong>Challenges:</strong> <br>I struggled to decide on a colour scheme for this as I don’t have the best eye for design! However, I do like minimalist themes, so am happy with how it turned out. I spent a long time trying to work out why my Event Listeners weren’t working then eventually realised I’d forgotten to link the JavaScript file to the HTML file.<br>The final challenge became apparent once I started updating my site. I added all my new builds to the Projects page, but eventually this started to look crowded with so many buttons, and on smaller screens required scrolling to be able to see anything. <br><br><strong>Learnings:</strong><br>My main take away from this came as I started to update the portfolio. Each time I added a new project I copied and pasted the code for the preview and the button, which meant a lot of duplicated code. Once I started to learn React, I realised how powerful it is to be able to build one component and just map over a data source to display multiple elements of the same type.",
+      "This was my first <a target=_blank href=' https://evg4.github.io/old-portfolio/ '> portfolio</a>, built using plain HTML, CSS and JavaScript. Eventually I realised React would be a much more efficient way to build this, so I replaced it with this website. But I was really proud of this when I first created it, as it was one of my first major projects, so I am including it here!   <br><br><strong>How it works:</strong> <br>The site is self-explanatory. The Projects page features completed projects, but also small experiments and unfinished projects. There’s also information on the courses I’ve completed on the Courses page, and an About and Contact page.<br><br><strong>Challenges:</strong> <br>I struggled to decide on a colour scheme for this as I don’t have the best eye for design! However, I do like minimalist themes, so am happy with how it turned out. I spent a long time trying to work out why my Event Listeners weren’t working then eventually realised I’d forgotten to link the JavaScript file to the HTML file.<br>The final challenge became apparent once I started updating my site. I added all my new builds to the Projects page, but eventually this started to look crowded with so many buttons, and on smaller screens required scrolling to be able to see anything. <br><br><strong>Learnings:</strong><br>My main take away from this came as I started to update the portfolio. Each time I added a new project I copied and pasted the code for the preview and the button, which meant a lot of duplicated code. Once I started to learn React, I realised how powerful it is to be able to build one component and just map over a data source to display multiple elements of the same type.",
     image: portfolio,
-    link: "https://evg4.github.io/index.html",
+    link: "https://evg4.github.io/old-portfolio/",
     video: portfolioVid,
-    alt: "A screenshot of Lizzie's old Portfolio. The screen has buttons on the left corresponding to different projects, and a viewing window on the right to display the selected one."
+    alt: "A screenshot of Lizzie's old Portfolio. The screen has buttons on the left corresponding to different projects, and a viewing window on the right to display the selected one.",
   },
 ];
 
