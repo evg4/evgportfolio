@@ -1,6 +1,6 @@
 .blogPostPage {
   width: 65%;
-  }
+}
 
 .blogPost {
   border: 1px solid black;
@@ -8,7 +8,6 @@
   box-shadow: 5px 5px 5px black;
   padding: 15px;
 }
-
 
 .blogPost img {
   display: block;
@@ -21,4 +20,29 @@
   display: flex;
   justify-content: space-between;
   margin: 10px 0;
+}
+
+@media only screen and (max-width: 1545px) {
+  .blogPostPage {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1090px) {
+  .blogPostPage {
+    width: 80%;
+  }
+
+  .blogPost {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .buttons {
+    flex-direction: column;
+  }
+  .blogPost h2 {
+    width: min-content;
+  }
 }

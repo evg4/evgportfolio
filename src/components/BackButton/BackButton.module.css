@@ -10,3 +10,21 @@ button:enabled:hover {
   cursor: pointer;
   transform: scale(1.05, 1.05);
 }
+
+@media only screen and (max-width: 1545px) {
+  button {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 1090px) {
+  button {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  button {
+    font-size: 18px;
+  }
+}
