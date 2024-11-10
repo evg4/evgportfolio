@@ -1,16 +1,28 @@
 .story {
-    width: 50%;
+  width: 50%;
 }
 
 .story .text {
-    text-align: justify;
-    margin: 0px auto;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px black;
+  text-align: justify;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px black;
 }
 
 .story button {
-    margin: 20px auto;
+  margin: 20px auto;
+}
+
+@media only screen and (max-width: 1545px) {
+  .story {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1090px) {
+  .story {
+    width: 80%;
+  }
 }
