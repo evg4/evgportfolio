@@ -1,4 +1,5 @@
 import { useNavigate, useParams } from "react-router-dom";
+import styles from "./NextButton.module.css";
 
 function NextButton(props) {
   const navigate = useNavigate();
