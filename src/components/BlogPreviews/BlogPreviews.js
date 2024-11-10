@@ -1,10 +1,9 @@
 import styles from "./BlogPreviews.module.css";
 import blogs from "../../data/blogs";
 import { Link } from "react-router-dom";
-import { useState } from "react";
 
 function BlogPreviews() {
-  const [selected, setSelected] = useState(blogs);
+  const selected = blogs;
 
   return (
     <section className={styles.previewSection}>

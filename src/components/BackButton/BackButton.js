@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function BackButton(props) {
   return (
     <Link to={props.newLink}>
-      <button>{props.newLinkText}</button>
+      <button className={styles.button}>{props.newLinkText}</button>
     </Link>
   );
 }

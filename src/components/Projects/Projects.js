@@ -1,8 +1,6 @@
 import styles from "./Projects.module.css";
-import projects from "../../data/projects";
 import Project from "../Project/Project";
 import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
 
 function Projects() {
   return (

@@ -11,7 +11,7 @@ import About from "../About/About";
 import Courses from "../Courses/Courses";
 import Projects from "../Projects/Projects";
 import ProjectPage from "../ProjectPage/ProjectPage";
-import JammmingLink from "../JammmingLink/JammmingLink";
+/*import JammmingLink from "../JammmingLink/JammmingLink";*/
 import Blog from "../Blog/Blog";
 import BlogPost from "../BlogPost/BlogPost";
 import Contact from "../Contact/Contact";

@@ -6,7 +6,7 @@ function Header() {
   return (
     <header>
       <Link to="/">
-        <h1>Lizzie Codes</h1>
+        <h1 className={styles.header}>Lizzie Codes</h1>
       </Link>
 
       <Nav />

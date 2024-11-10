@@ -1,6 +1,5 @@
 import styles from "./Archive.module.css";
 import { years, blogTitles } from "../../data/blogs";
-import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 let monthsObj = {
@@ -19,8 +18,6 @@ let monthsObj = {
 };
 
 function Archive() {
-  const navigate = useNavigate();
-
   return (
     <section className={styles.archive}>
       <h2>Archive</h2>

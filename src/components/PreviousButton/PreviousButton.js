@@ -1,6 +1,4 @@
-import styles from "./PreviousButton.module.css";
 import { useNavigate, useParams } from "react-router-dom";
-import blogs from "../../data/blogs";
 
 function PreviousButton(props) {
   const navigate = useNavigate();

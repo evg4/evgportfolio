@@ -1,6 +1,5 @@
 import socials from "../../data/socials";
 import styles from "./Contact.module.css";
-import journey from "../../assets/stepping-stones2.jpg";
 
 function Contact() {
   return (
@@ -12,8 +11,8 @@ function Contact() {
           <div className={styles.socials}>
             {socials.map((social) => {
               return (
-                <a href={social.link} target="_blank">
-                  <img src={social.logo}></img>
+                <a href={social.link} target="_blank" rel="noreferrer">
+                  <img alt="logo" src={social.logo}></img>
                 </a>
               );
             })}
