@@ -34,19 +34,8 @@ footer .socials img {
 .links a {
   margin: 5px;
   font-size: 20px;
+  color: black;
 }
-
-/*
-.footerDiv ul {
-  list-style: none;
-  padding: 0px;
-  margin: 10px 0;
-}
-
-.footerDiv li {
-  font-size: 20px;
-}
-*/
 
 @media only screen and (max-width: 850px) {
   footer .socials img {
