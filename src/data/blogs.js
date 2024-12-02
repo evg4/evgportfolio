@@ -1,3 +1,4 @@
+import secretSanta from "../assets/secretSanta.png";
 import messageGenerator from "../assets/messageGenerator.png";
 import eduTaskHub from "../assets/eduTaskHub.PNG";
 import evgtrans from "../assets/EVGTranslations.JPG";
@@ -31,6 +32,21 @@ import cheatsheet from "../assets/cheatsheet.jpeg";
 import salsa from "../assets/salsa.jpeg";
 
 const blogs = [
+  {
+    title: "Secret Santa",
+    link: "",
+    day: "02",
+    month: "12",
+    year: "2024",
+    img: secretSanta,
+    summaryText: "A seasonal way to practise recursion!",
+    fullText:
+      "This is something I worked on last year that I never got round to sharing. I had the idea to create a Secret Santa generator. I wanted to do it as a webpage, where users could enter all names then press a button to generate the list. The idea was to only display matches one by one by clicking each name, to keep everyone's assignment secret. <br><br> I created the basic code in JavaScript then had to put the project on hold when I started preparing for job interviews, and then firmly back on the shelf once I started my new job. <br><br>But, despite the project not being quite what I envisioned, I still want to share the code I did write. It took a lot of refining but I was pleased I could figure out a way to do it, and it was a good chance to practise recursion, too - something I'd been learning about in preparation for job applications. You can see the code on <a target=_blank href='https://github.com/evg4/secret-santa-js/tree/main'>my Github profile</a>. ",
+    get fullDate() {
+      return `${this.day}.${this.month}.${this.year}`;
+    },
+    alt: "A screenshot of Lizzie's Secret Santa code.",
+  },
   {
     title: "Message Generator",
     link: "",
