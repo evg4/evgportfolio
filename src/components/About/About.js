@@ -31,11 +31,12 @@ function About() {
       <div className={styles.text}>
         <p>
           The short version of my story is this: I’m a career-switcher, having
-          started my career in the languages industry before landing my current
-          role as a Pega Apprentice. I loved learning languages (and still do!)
-          because I’m a big fan of grammar rules (the first clue that maybe I’d
-          enjoy coding), but I struggled to find a job in the languages industry
-          that was the right fit for me.<br></br>
+          started my working life in the languages industry before landing a
+          role as a Pega Apprentice and getting promoted to a Pega Developer one
+          year later. I loved learning languages (and still do!) because I’m a
+          big fan of grammar rules (the first clue that maybe I’d enjoy coding),
+          but I struggled to find a job in the languages industry that was the
+          right fit for me.<br></br>
           <br></br>
           After discovering that I enjoyed coding, I taught myself HTML, CSS and
           JavaScript using Codecademy and worked hard at networking. I went to
