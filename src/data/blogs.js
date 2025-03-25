@@ -1,3 +1,4 @@
+import quoteApi from "../assets/quoteApi.png";
 import secretSanta from "../assets/secretSanta.png";
 import messageGenerator from "../assets/messageGenerator.png";
 import eduTaskHub from "../assets/eduTaskHub.PNG";
@@ -32,6 +33,22 @@ import cheatsheet from "../assets/cheatsheet.jpeg";
 import salsa from "../assets/salsa.jpeg";
 
 const blogs = [
+  {
+    title: "Quote API",
+    link: "",
+    day: "18",
+    month: "03",
+    year: "2025",
+    img: quoteApi,
+    summaryText: "Building a server with Express.js",
+    fullText:
+      "This project uses Express.js to create a simple server for a Quote API. The basic front-end was already built and I worked on the server.js file to add routes for different API calls. The user can fetch a random quote, see all quotes, add a new quote or amend an existing one. I added some new UI to the base project to allow that, as well as amending the data to include an ID to use for the POST and the PUT routes. <br><br> I enjoyed working on this project that was pure logic, without having to think about design elements. I’m looking forward to continue with the back-end part of my course and building out larger servers. I haven’t deployed this as a full webpage, but the code I wrote for this project is published on <a target=_blank href=“https://github.com/evg4/quote-api-starting/tree/main” >my Github profile</a>.",
+
+    get fullDate() {
+      return `${this.day}.${this.month}.${this.year}`;
+    },
+    alt: "A screenshot of Lizzie's Quote API code, specifically the server.js file.",
+  },
   {
     title: "Secret Santa",
     link: "",
