@@ -1,3 +1,4 @@
+import langApi from "../assets/languagesData.png";
 import quoteApi from "../assets/quoteApi.png";
 import secretSanta from "../assets/secretSanta.png";
 import messageGenerator from "../assets/messageGenerator.png";
@@ -33,6 +34,22 @@ import cheatsheet from "../assets/cheatsheet.jpeg";
 import salsa from "../assets/salsa.jpeg";
 
 const blogs = [
+  {
+    title: "Languages and food API",
+    link: "",
+    day: "06",
+    month: "04",
+    year: "2025",
+    img: langApi,
+    summaryText: "Building a server with Express.js",
+    fullText:
+      "After following a guided Codecademy project to build out the previous Quote API, I was keen to create my own from scratch as I find it easier to solidify concepts when doing everything myself. I combined two of my favourite things – languages and food – and created simple data sets. I then used Express to build a server, starting with everything in one file. I then refactored to split the routes out into two separate files, and built custom middleware to handle verification of the request data. Finally, I made use of the fs module to write any updated data back to the original array. <br><br>This was the first fully independent back-end project I worked on and I found it really satisfying to combine new things I’d learnt and see all the pieces come together. There is no front-end to go with this but my source code is available at <a target=_blank href='https://github.com/evg4/Languages-API' >my Github profile</a>.",
+
+    get fullDate() {
+      return `${this.day}.${this.month}.${this.year}`;
+    },
+    alt: "A screenshot of languagesData.json file, with simple data about some languages.",
+  },
   {
     title: "Quote API",
     link: "",
