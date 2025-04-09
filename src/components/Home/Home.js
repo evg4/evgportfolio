@@ -10,7 +10,7 @@ function Home() {
       <div className={styles.hidden}>
         <p>
           Hi, I’m Lizzie (she/her) – a linguist-turned-coder currently working
-          as a Pega Apprentice.
+          as a Pega Developer.
           <br />
           <br />
           I started teaching myself to code in April 2023 when I was working as
@@ -21,8 +21,9 @@ function Home() {
           <br />
           After completing a course in front-end engineering in December 2023, I
           started applying for tech roles, and was lucky enough to land a job at
-          Jetty Technologies as a Pega Apprentice, where I’m learning the
-          low-code system of Pega.
+          Jetty Technologies as a Pega Apprentice, learning the low-code system
+          of Pega. I've since been promoted to Pega Developer and am working
+          towards my System Architect exam.
           <br />
           <br />I built this portfolio to document my learning and keep all my
           projects in one place. If you want to go right back to the beginning
