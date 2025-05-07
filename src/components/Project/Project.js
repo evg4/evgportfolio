@@ -1,36 +1,25 @@
 import styles from "./Project.module.css";
-import projects from "../../data/projects";
 import { Link } from "react-router-dom";
-/*import { useNavigate } from "react-router-dom";*/
-/*import { useState, useEffect } from "react";*/
 
-function Project() {
+function Project(props) {
   return (
-    <section className={styles.projectsSection}>
-      <div className={styles.tiles}>
-        {projects.map((project) => {
-          return (
-            <div
-              key={project.title}
-              id={project.link}
-              className={styles.tile}
-            >
-              <Link to={project.title}>
-                <h3>{project.title}</h3>
-                <p className={styles.description}>{project.description}</p>
-                <img src={project.image} alt={project.alt}></img>
-                <p>
-                  <strong>Date:</strong> {project.date}
-                </p>
-                <p>
-                  <strong>Languages and frameworks:</strong> {project.languages}
-                </p>
-              </Link>
-            </div>
-          );
-        })}
-      </div>
-    </section>
+    <div
+      key={props.project.title}
+      id={props.project.link}
+      className={styles.tile}
+    >
+      <Link to={props.project.title}>
+        <h3>{props.project.title}</h3>
+        <p className={styles.description}>{props.project.description}</p>
+        <img src={props.project.image} alt={props.project.alt}></img>
+        <p>
+          <strong>Date:</strong> {props.project.date}
+        </p>
+        <p>
+          <strong>Languages and frameworks:</strong> {props.project.languages}
+        </p>
+      </Link>
+    </div>
   );
 }
 

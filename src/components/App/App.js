@@ -9,7 +9,7 @@ import Root from "../Root/Root";
 import Home from "../Home/Home";
 import About from "../About/About";
 import Courses from "../Courses/Courses";
-import Projects from "../Projects/Projects";
+import ProjectsPage from "../ProjectsPage/ProjectsPage";
 import ProjectPage from "../ProjectPage/ProjectPage";
 /*import JammmingLink from "../JammmingLink/JammmingLink";*/
 import Blog from "../Blog/Blog";
