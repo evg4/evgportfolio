@@ -6,13 +6,13 @@ function Blog() {
   return (
     <section>
       <div className={styles.blogPage}>
-       <div className={styles.archive}>
+        <div className={styles.archive}>
           <Archive />
-        </div> 
+        </div>
         <div className={styles.preview}>
           <BlogPreviews />
         </div>
-       </div>
+      </div>
     </section>
   );
 }
