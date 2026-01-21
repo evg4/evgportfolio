@@ -1,3 +1,4 @@
+import passwordManager from "../assets/passwordManager.png";
 import langApi from "../assets/languagesData.png";
 import quoteApi from "../assets/quoteApi.png";
 import secretSanta from "../assets/secretSanta.png";
@@ -34,6 +35,22 @@ import cheatsheet from "../assets/cheatsheet.jpeg";
 import salsa from "../assets/salsa.jpeg";
 
 const blogs = [
+  {
+    title: "Password Manager",
+    link: "",
+    day: "13",
+    month: "01",
+    year: "2026",
+    img: passwordManager,
+    summaryText: "My first Python project!",
+    fullText:
+      "My first two weeks of the Makers bootcamp involved learning beginners' Python. The first programme we built was a simple password validator, which we then extended into a password manager. It was really satisfying to be building things so quickly, even if they are simple! There is no front-end to go with this but my source code is available at <a target=_blank href='https://github.com/evg4/python_chapter_2_challenges' >my Github profile</a>.",
+
+    get fullDate() {
+      return `${this.day}.${this.month}.${this.year}`;
+    },
+    alt: "A screenshot of languagesData.json file, with simple data about some languages.",
+  },
   {
     title: "Languages and food API",
     link: "",
