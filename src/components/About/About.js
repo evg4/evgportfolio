@@ -5,14 +5,19 @@ import group1 from "../../assets/group1.jpg";
 import me2 from "../../assets/me2.jpg";
 import group3 from "../../assets/group3.jpg";
 import me5 from "../../assets/me5.jpg";
+import me6 from "../../assets/me6.jpg";
 
 function About() {
   return (
     <section className={styles.about}>
       <div className={styles.imgs}>
-        <img
+        {/*<img
           src={group1}
           alt="Around 50 woman, of different ages and races, are standing or sitting on a stage. They are all smiling at the camera."
+        ></img>*/}
+        <img
+          src={me6}
+          alt="Lizzie, in a green sparkly dress, stands in front of a backdrop for the Bupa everywoman in technology awards."
         ></img>
         <img
           src={me2}
@@ -31,12 +36,12 @@ function About() {
       <div className={styles.text}>
         <p>
           The short version of my story is this: I’m a career-switcher, having
-          started my working life in the languages industry before landing a
-          role as a Pega Apprentice and getting promoted to a Pega Developer one
-          year later. I loved learning languages (and still do!) because I’m a
-          big fan of grammar rules (the first clue that maybe I’d enjoy coding),
-          but I struggled to find a job in the languages industry that was the
-          right fit for me.<br></br>
+          started my working life in the languages industry before switching to
+          tech. My first developer role was in the low-code world of Pega, and
+          I'm now delving into full-stack. I loved learning languages (and still
+          do!) because I’m a big fan of grammar rules (the first clue that maybe
+          I’d enjoy coding), but I struggled to find a job in the languages
+          industry that was the right fit for me.<br></br>
           <br></br>
           After discovering that I enjoyed coding, I taught myself HTML, CSS and
           JavaScript using Codecademy and worked hard at networking. I went to
