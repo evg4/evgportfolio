@@ -1,3 +1,4 @@
+import billionBirthday from "../assets/billion_birthday.png";
 import passwordManager from "../assets/passwordManager.png";
 import langApi from "../assets/languagesData.png";
 import quoteApi from "../assets/quoteApi.png";
@@ -35,6 +36,22 @@ import cheatsheet from "../assets/cheatsheet.jpeg";
 import salsa from "../assets/salsa.jpeg";
 
 const blogs = [
+  {
+    title: "One billion birthday",
+    link: "",
+    day: "16",
+    month: "02",
+    year: "2026",
+    img: billionBirthday,
+    summaryText: "Some experimenting leading to new learnings.",
+    fullText:
+      "My colleague and I were inspired by <a target=_blank href='https://billionbirthday.com/'>Billion Birthday</a>, a website where users input their birthday and then see the exact date and time that they turn one billion seconds old. We were using the browser tools to look at the JavaScript code behind it and wondered how we'd achieve the same thing in Python, so decided to give it a go. <br><br> Although it's a simple programme we learnt some new syntax that we'd not used before, namely the spread operator and a match case. This was also the first time I wrote tests for a function that involved user input, so I learnt how to use monkeypatch with pytest to automate testing for this.<br> <br> The source code, and instructions for how to use, is available at <a target=_blank href='https://github.com/evg4/billion_second_birthday' >my Github profile</a>.",
+
+    get fullDate() {
+      return `${this.day}.${this.month}.${this.year}`;
+    },
+    alt: "A screenshot of languagesData.json file, with simple data about some languages.",
+  },
   {
     title: "Password Manager",
     link: "",
