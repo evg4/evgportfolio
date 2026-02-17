@@ -1,7 +1,7 @@
 import styles from "./About.module.css";
 import { Link } from "react-router-dom";
 /*import InNumbers from "../InNumbers/InNumbers";*/
-import group1 from "../../assets/group1.jpg";
+/*import group1 from "../../assets/group1.jpg";*/
 import me2 from "../../assets/me2.jpg";
 import group3 from "../../assets/group3.jpg";
 import me5 from "../../assets/me5.jpg";
