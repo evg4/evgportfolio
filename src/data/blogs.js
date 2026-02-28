@@ -1,3 +1,4 @@
+import bank from "../assets/banks.png";
 import billionBirthday from "../assets/billion_birthday.png";
 import passwordManager from "../assets/passwordManager.png";
 import langApi from "../assets/languagesData.png";
@@ -36,6 +37,22 @@ import cheatsheet from "../assets/cheatsheet.jpeg";
 import salsa from "../assets/salsa.jpeg";
 
 const blogs = [
+  {
+    title: "Bank",
+    link: "",
+    day: "27",
+    month: "02",
+    year: "2026",
+    img: bank,
+    summaryText: "Getting to grips with Java.",
+    fullText:
+      "I've reached the halfway point of my Makers bootcamp and have moved on to Java. It's strange getting used to a strongly-typed language but I'm enjoying it! Part of my learning has involved creating <a target=_blank href='https://github.com/evg4/Bank/'>a small Bank class</a>, which is then run via Main. It started small, then I split it out into individual Accounts which could then be added to a BankAccount class, so that I could practise using interfaces and isolating tests. I successfully created some mock Accounts for testing, and helped solidify concepts like private vs static fields. <br><br>I'm still very beginner when it comes to Java, and I'm sure I'll learn better ways to do things as I improve, but for now I'm pleased that I was able to put together this small programme! <br><br>I later also made a <a target=_blank href='https://github.com/evg4/BetterBank/'>version</a> that accepted an openingBalance argument to experiment with a different constructor.",
+
+    get fullDate() {
+      return `${this.day}.${this.month}.${this.year}`;
+    },
+    alt: "A screenshot of languagesData.json file, with simple data about some languages.",
+  },
   {
     title: "One billion birthday",
     link: "",
