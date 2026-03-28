@@ -1,3 +1,5 @@
+import acebookEarth from "../assets/acebookEarth.jpg";
+import acebookEarthVideo from "../assets/acebookEarthVideo.mp4";
 import bank from "../assets/banks.png";
 import billionBirthday from "../assets/billion_birthday.png";
 import passwordManager from "../assets/passwordManager.png";
@@ -38,6 +40,23 @@ import salsa from "../assets/salsa.jpeg";
 
 const blogs = [
   {
+    title: "Acebook",
+    link: "",
+    day: "13",
+    month: "03",
+    year: "2026",
+    img: acebookEarth,
+    video: acebookEarthVideo,
+    summaryText: "My first group project in Java Spring Boot.",
+    fullText:
+      "After just two weeks of Java, the first group project of our Makers bootcamp was Acebook - a full stack application built with Java Spring Boot and PostgreSQL. <br><br> We started with a legacy codebase with basic functionality for adding a new post, and as a team we had to decide what direction to take it in. <br><br>We wanted to challenge ourselves to use a pop-up for adding a new post, which took a bit of learning and the addition of JavaScript. Alongside that we focussed on liking and unliking posts, commenting on posts, uploading images and being able to log in and out. Finally, we added styling with plain CSS. <br><br>My personal contribution was the like/unlike feature. I enjoyed working out how this would be implemented at a database level, and adding new Flyway migrations to update the data model, as well as getting more familiarity with the MVC pattern and using repositories to handle all the data being passed to and from the database.",
+
+    get fullDate() {
+      return `${this.day}.${this.month}.${this.year}`;
+    },
+    alt: "A screenshot of Acebook Earth. The background is black and the logo is the Earth with blue rings round it and the text 'ACEBOOK EARTH' in blue and green font. The navbar has the options Feed, +, Profile and Logout.",
+  },
+  {
     title: "Bank",
     link: "",
     day: "27",
@@ -51,7 +70,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of languagesData.json file, with simple data about some languages.",
+    alt: "A screenshot showing a Java Main class and the terminal underneath showing the output when the code is run.",
   },
   {
     title: "One billion birthday",
@@ -67,7 +86,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of languagesData.json file, with simple data about some languages.",
+    alt: "A screenshot of a Python function called find_billion_birthday.",
   },
   {
     title: "Password Manager",
@@ -83,7 +102,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of languagesData.json file, with simple data about some languages.",
+    alt: "A screenshot of some Python code showing a class called PasswordManager with various methods.",
   },
   {
     title: "Languages and food API",
