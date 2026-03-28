@@ -14,7 +14,11 @@ function BlogPost() {
       <div className={styles.blogPost}>
         <h2>{title}</h2>
         <p>{`${blog.day}.${blog.month}.${blog.year}`}</p>
-        <img src={blog.img} alt={blog.alt}></img>
+        <img style={{display: blog.video == null ? 'block' : 'none'}} src={blog.img} alt={blog.alt}></img>
+        
+        <video style={{display: blog.video == null ? 'none' : 'block'}} src={blog.video} width="80%" controls>
+          Video not supported
+        </video>
         <p>{parse(blog.fullText)}</p>
       </div>
       <div className={styles.buttons}>

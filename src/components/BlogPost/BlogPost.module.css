@@ -9,8 +9,8 @@
   padding: 15px;
 }
 
-.blogPost img {
-  display: block;
+.blogPost img,
+.blogPost video {
   margin: 15px auto;
   padding: 10px;
   width: 80%;
