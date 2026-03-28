@@ -56,7 +56,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of Acebook Earth. The background is black and the logo is the Earth with blue rings round it and the text 'ACEBOOK EARTH' in blue and green font. The navbar has the options Feed, +, Profile and Logout.",
+    alt: "A screenshot of a player's profile page on Office Games. There's a black background with purple profile section showing the player's name and bio. Underneath, there are stats like most played opponent, and recent matches.",
   },
   {
     title: "Acebook",
