@@ -16,7 +16,7 @@ function Project(props) {
           <strong>Date:</strong> {props.project.date}
         </p>
         <p>
-          <strong>Languages and frameworks:</strong> {props.project.languages}
+          <strong>Tech stack:</strong> {props.project.languages}
         </p>
       </Link>
     </div>

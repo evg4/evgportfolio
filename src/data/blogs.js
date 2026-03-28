@@ -1,3 +1,5 @@
+import officeGames from "../assets/officeGames.png"
+import officeGamesVideo from "../assets/officeGamesVideo.mov";
 import acebookEarth from "../assets/acebookEarth.jpg";
 import acebookEarthVideo from "../assets/acebookEarthVideo.mp4";
 import bank from "../assets/banks.png";
@@ -39,6 +41,23 @@ import cheatsheet from "../assets/cheatsheet.jpeg";
 import salsa from "../assets/salsa.jpeg";
 
 const blogs = [
+  {
+    title: "Office Games",
+    link: "",
+    day: "26",
+    month: "03",
+    year: "2026",
+    img: officeGames,
+    video: officeGamesVideo,
+    summaryText: "Java Spring Boot app to keep track of games we play at the office.",
+    fullText:
+      "I finished off my 12 week Makers bootcamp with a final group project, where we were free to decide what we wanted to build. <br><br> Our cohort is a competetive bunch and we'd already played lots of table tennis, pool and chess together, so we decided to build an app to keep track of these games and our scores. <br><br>We used the <a target='blank' href='https://en.wikipedia.org/wiki/Elo_rating_system'>Elo rating system</a> to rank all players based on how they performed and keep track of this in the app through Leaderboards.<br><br>Read more details on the <a href='/projects/Office%20Games'>Projects page</a>!",
+
+    get fullDate() {
+      return `${this.day}.${this.month}.${this.year}`;
+    },
+    alt: "A screenshot of Acebook Earth. The background is black and the logo is the Earth with blue rings round it and the text 'ACEBOOK EARTH' in blue and green font. The navbar has the options Feed, +, Profile and Logout.",
+  },
   {
     title: "Acebook",
     link: "",
