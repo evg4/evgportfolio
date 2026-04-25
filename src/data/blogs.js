@@ -1,3 +1,5 @@
+import makersbnb from "../assets/MakersBnB.png";
+import makersbnbVideo from "../assets/MakersBnB.mov";
 import officeGames from "../assets/officeGames.png"
 import officeGamesVideo from "../assets/officeGamesVideo.mov";
 import acebookEarth from "../assets/acebookEarth.jpg";
@@ -74,6 +76,23 @@ const blogs = [
       return `${this.day}.${this.month}.${this.year}`;
     },
     alt: "A screenshot of Acebook Earth. The background is black and the logo is the Earth with blue rings round it and the text 'ACEBOOK EARTH' in blue and green font. The navbar has the options Feed, +, Profile and Logout.",
+  },
+  {
+    title: "MakersBnB",
+    link: "",
+    day: "6",
+    month: "03",
+    year: "2026",
+    img: makersbnb,
+    video: makersbnbVideo,
+    summaryText: "My first time using Java Spring Boot and Bootstrap.",
+    fullText:
+      "I built this web app during my Makers bootcamp to learn how to combine Java Spring Boot with HTML. It was very much a learn-as-I-go project, so already I can see parts of the code that could be omptimised, like folder structure, file names and readability. <br><br>It's linked to a PostgreSQL database so any information that's added via the 'Add new space' button is persisted. As you'll notice from the video, there's no option to upload an image, so any subsequent spaces don't have a photo. This is simply because I hadn't learnt how to do it yet - so I made it a priority to learn how to do it on the next two project (Acebook Earth and Office Games)! <br><br>This was also the first time I used Bootstrap for styling. Previously I'd only ever done manual CSS so it was great to try out a new method. Design remains one of my weaker points and the appearance won't win any awards, but it was fun to try out different layouts - like the cards on the Spaces page and the accordion on the Team page.",
+
+    get fullDate() {
+      return `${this.day}.${this.month}.${this.year}`;
+    },
+    alt: "A webpage with the title 'MakersBnB' and heading 'Find your next getaway...'. Under are 5 accomodation tiles. Each tile has a picture, descriptoin and cost.",
   },
   {
     title: "Bank",
