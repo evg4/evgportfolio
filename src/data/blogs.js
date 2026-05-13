@@ -1,3 +1,4 @@
+import OAuthApp from "../assets/OAuthApp.jpg"
 import makersbnb from "../assets/MakersBnB.png";
 import makersbnbVideo from "../assets/MakersBnB.mov";
 import officeGames from "../assets/officeGames.png"
@@ -43,6 +44,23 @@ import cheatsheet from "../assets/cheatsheet.jpeg";
 import salsa from "../assets/salsa.jpeg";
 
 const blogs = [
+    {
+    title: "OAuthApp",
+    link: "",
+    day: "04",
+    month: "05",
+    year: "2026",
+    img: OAuthApp,
+    video: null,
+    summaryText: "Simple web app using GitHub for authorisation.",
+    fullText:
+      "As part of Codecademy's Full Stack Engineer pathway, I've been learning about authentication. <br><br> This simple Express app uses passport to allow SSO with a user's GitHub account. <br><br> Some starting code, including the frontend, was provided and I added the backend functionality. <br><br>It took me a while to get my head around some authorisation/authentication concepts so it was nice to put them into practice! <a target='blank' href='https://github.com/evg4/OAuthApp/tree/main'>See the code on my GitHub</a>.",
+
+    get fullDate() {
+      return `${this.day}.${this.month}.${this.year}`;
+    },
+    alt: "A screenshot of a a webpage with the text 'Hey there! You'll be redirected to GitHub to login to your account!'",
+  },
   {
     title: "Office Games",
     link: "",
