@@ -1,7 +1,9 @@
-import OAuthApp from "../assets/OAuthApp.jpg"
+import smartPlannerVideo from "../assets/smartPlannerDemo.mov";
+import smartPlanner from "../assets/smartPlanner.png";
+import OAuthApp from "../assets/OAuthApp.jpg";
 import makersbnb from "../assets/MakersBnB.png";
 import makersbnbVideo from "../assets/MakersBnB.mov";
-import officeGames from "../assets/officeGames.png"
+import officeGames from "../assets/officeGames.png";
 import officeGamesVideo from "../assets/officeGamesVideo.mov";
 import acebookEarth from "../assets/acebookEarth.jpg";
 import acebookEarthVideo from "../assets/acebookEarthVideo.mp4";
@@ -44,7 +46,23 @@ import cheatsheet from "../assets/cheatsheet.jpeg";
 import salsa from "../assets/salsa.jpeg";
 
 const blogs = [
-    {
+  {
+    title: "Smart Planner",
+    link: "",
+    day: "22",
+    month: "07",
+    year: "2026",
+    img: smartPlanner,
+    video: smartPlannerVideo,
+    summaryText: "AI developed React app with Gemini integration.",
+    fullText:
+      "As a junior developer I'm still very much focused on building strong foundational skills when it comes to programming. Having said that, I believe it's equally important to keep up with the latest changes in AI and get used to incorporating it into daily work where appropriate. With that in mind, I used the BMAD framework to design, build and deploy this Smart Planner app. <br><br> It's designed for learning, so users input the tasks they have to study for, including information like deadlines, format, and enjoyment levels. They also provide information on what learning formats are best suited to which time of day, and how much study time they have available, and an algorithm decides the best order to complete the tasks. There's also an API call to Gemini which provides an explanation of why that order was chosen. <br><br> This isn't functional as a proper working app – I instructed Claude to treat it as a hackathon project, so there's no database; data is only kept in local storage. If I were creating this as a real app, I'd also want to make the design more interesting. However, it was a great learning exercise and cool to see what can be achieved with AI.",
+    get fullDate() {
+      return `${this.day}.${this.month}.${this.year}`;
+    },
+    alt: "A black and white web app showing the 'Today's plan' page. It has a list of 3 items on a to-do list, with an AI-generated paragraph of text explaining why this order has been chosen for the tasks.",
+  },
+  {
     title: "OAuthApp",
     link: "",
     day: "04",
@@ -59,7 +77,7 @@ const blogs = [
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
-    alt: "A screenshot of a a webpage with the text 'Hey there! You'll be redirected to GitHub to login to your account!'",
+    alt: "A screenshot of a webpage with the text 'Hey there! You'll be redirected to GitHub to login to your account!'",
   },
   {
     title: "Office Games",
@@ -69,7 +87,8 @@ const blogs = [
     year: "2026",
     img: officeGames,
     video: officeGamesVideo,
-    summaryText: "Java Spring Boot app to keep track of games we play at the office.",
+    summaryText:
+      "Java Spring Boot app to keep track of games we play at the office.",
     fullText:
       "I finished off my 12 week Makers bootcamp with a final group project, where we were free to decide what we wanted to build. <br><br> Our cohort is a competetive bunch and we'd already played lots of table tennis, pool and chess together, so we decided to build an app to keep track of these games and our scores. <br><br>We used the <a target='blank' href='https://en.wikipedia.org/wiki/Elo_rating_system'>Elo rating system</a> to rank all players based on how they performed and keep track of this in the app through Leaderboards.<br><br>Read more details on the <a href='/projects/Office%20Games'>Projects page</a>!",
 
@@ -169,7 +188,7 @@ const blogs = [
     img: langApi,
     summaryText: "Building a server with Express.js",
     fullText:
-      "After following a guided Codecademy project to build out the previous Quote API, I was keen to create my own from scratch as I find it easier to solidify concepts when doing everything myself. I combined two of my favourite things – languages and food – and created simple data sets. I then used Express to build a server, starting with everything in one file. I then refactored to split the routes out into two separate files, and built custom middleware to handle verification of the request data. Finally, I made use of the fs module to write any updated data back to the original array. <br><br>This was the first fully independent back-end project I worked on and I found it really satisfying to combine new things I’d learnt and see all the pieces come together. There is no front-end to go with this but my source code is available at <a target=_blank href='https://github.com/evg4/Languages-API' >my Github profile</a>.",
+      "After following a guided Codecademy project to build out the previous Quote API, I was keen to create my own from scratch as I find it easier to solidify concepts when doing everything myself. I combined two of my favourite things – languages and food – and created simple data sets. I then used Express to build a server, starting with everything in one file. I then refactored to split the routes out into two separate files, and built custom middleware to handle verification of the request data. Finally, I made use of the fs module to write any updated data back to the original array. <br><br>This was the first fully independent back-end project I worked on and I found it really satisfying to combine new things I'd learnt and see all the pieces come together. There is no front-end to go with this but my source code is available at <a target=_blank href='https://github.com/evg4/Languages-API' >my Github profile</a>.",
 
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
@@ -185,7 +204,7 @@ const blogs = [
     img: quoteApi,
     summaryText: "Building a server with Express.js",
     fullText:
-      "This project uses Express.js to create a simple server for a Quote API. The basic front-end was already built and I worked on the server.js file to add routes for different API calls. The user can fetch a random quote, see all quotes, add a new quote or amend an existing one. I added some new UI to the base project to allow that, as well as amending the data to include an ID to use for the POST and the PUT routes. <br><br> I enjoyed working on this project that was pure logic, without having to think about design elements. I’m looking forward to continue with the back-end part of my course and building out larger servers. I haven’t deployed this as a full webpage, but the code I wrote for this project is published on <a target=_blank href=“https://github.com/evg4/quote-api-starting/tree/main” >my Github profile</a>.",
+      "This project uses Express.js to create a simple server for a Quote API. The basic front-end was already built and I worked on the server.js file to add routes for different API calls. The user can fetch a random quote, see all quotes, add a new quote or amend an existing one. I added some new UI to the base project to allow that, as well as amending the data to include an ID to use for the POST and the PUT routes. <br><br> I enjoyed working on this project that was pure logic, without having to think about design elements. I'm looking forward to continue with the back-end part of my course and building out larger servers. I haven't deployed this as a full webpage, but the code I wrote for this project is published on <a target=_blank href=“https://github.com/evg4/quote-api-starting/tree/main” >my Github profile</a>.",
 
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
@@ -231,7 +250,7 @@ const blogs = [
     img: eduTaskHub,
     summaryText: "I worked on this with my mentor Jade Wilson.",
     fullText:
-      "During my job search I’ve been working with my mentor Jade Wilson to prepare for interviews. She set me the task of putting together an app called <a target=_blank href='https://edutaskhub.netlify.app/'>EduTaskHub</a>, with the aim of simplifying the assignment of homework for teachers and students. <br><br>It was a great learning process: Jade explained to me what interviewers are looking for with these types of take-home tasks, and helped me find areas for improvement in my implementation. I used Redux to manage the state in this app, though I now realise it would be better to use local state, except when changes in one component affects another. This was also the first project where I implemented testing, and I’ve discovered the value of writing tests early! <br><br>The project is unfinished, because I realised there is a lot that could be done better, and if I were to continue working on it I’d rather start from scratch to implement everything I learnt from Jade, but I’m proud of the work I did so still wanted to share it in my blog. The 'Add new coursework' button works - try it out!",
+      "During my job search I've been working with my mentor Jade Wilson to prepare for interviews. She set me the task of putting together an app called <a target=_blank href='https://edutaskhub.netlify.app/'>EduTaskHub</a>, with the aim of simplifying the assignment of homework for teachers and students. <br><br>It was a great learning process: Jade explained to me what interviewers are looking for with these types of take-home tasks, and helped me find areas for improvement in my implementation. I used Redux to manage the state in this app, though I now realise it would be better to use local state, except when changes in one component affects another. This was also the first project where I implemented testing, and I've discovered the value of writing tests early! <br><br>The project is unfinished, because I realised there is a lot that could be done better, and if I were to continue working on it I'd rather start from scratch to implement everything I learnt from Jade, but I'm proud of the work I did so still wanted to share it in my blog. The 'Add new coursework' button works - try it out!",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -325,7 +344,7 @@ const blogs = [
     summaryText:
       "A React app using React Routing. Featured on the Projects page.",
     fullText:
-      "I’m really proud of this <a target=_blank href='https://evg-recipe-blog.netlify.app/'>recipe blog</a>, which I built to practise React Routing. <br><br> On the 'Recipes' page, there's a list of recipes which can be sorted in different ways. This was achieved with searchParams. There is also a search field which filters the recipes according to the user's search term and uses createSearchParams. You can then click into each recipe and the relevant info is displayed. There is a 'back' button which uses useNavigate() to move through the history stack.",
+      "I'm really proud of this <a target=_blank href='https://evg-recipe-blog.netlify.app/'>recipe blog</a>, which I built to practise React Routing. <br><br> On the 'Recipes' page, there's a list of recipes which can be sorted in different ways. This was achieved with searchParams. There is also a search field which filters the recipes according to the user's search term and uses createSearchParams. You can then click into each recipe and the relevant info is displayed. There is a 'back' button which uses useNavigate() to move through the history stack.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -341,7 +360,7 @@ const blogs = [
     summaryText:
       "This webapp connects to the Spotify API. Featured on the Projects page.",
     fullText:
-      "One of the projects in Codecademy’s Front-End Engineer path was Jammming - an app which connects to the Spotify API to allow users to search for songs, add them to a playlist then save it to their own Spotify account. I personalised it by adding the ability to play a sample of the song, and ‘previous’ and ‘next’ buttons to display more pages of results. <br><br> I have not been able to deploy this as the Spotify API only allows apps that are in development mode to be authorised by 10 users. However, visit the <a href='/projects/Jammming'>Projects page</a> for a video of how it works</Link>.",
+      "One of the projects in Codecademy's Front-End Engineer path was Jammming - an app which connects to the Spotify API to allow users to search for songs, add them to a playlist then save it to their own Spotify account. I personalised it by adding the ability to play a sample of the song, and ‘previous' and ‘next' buttons to display more pages of results. <br><br> I have not been able to deploy this as the Spotify API only allows apps that are in development mode to be authorised by 10 users. However, visit the <a href='/projects/Jammming'>Projects page</a> for a video of how it works</Link>.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -371,7 +390,7 @@ const blogs = [
     img: quizTeam,
     summaryText: "This form uses the useState() hook with a JavaScript object.",
     fullText:
-      "This is <a target=_blank href='https://evg4.github.io/quizmember/'>a simple form to register a quiz team member</a>. I built it to continue getting familiar with React, in particular the useState() hook with an object. It was also a good opportunity to practise using HTML forms again. The data entered doesn’t actually go anywhere.",
+      "This is <a target=_blank href='https://evg4.github.io/quizmember/'>a simple form to register a quiz team member</a>. I built it to continue getting familiar with React, in particular the useState() hook with an object. It was also a good opportunity to practise using HTML forms again. The data entered doesn't actually go anywhere.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -403,7 +422,7 @@ const blogs = [
     summaryText:
       "My second React app makes use of props and the useState() hook.",
     fullText:
-      "This webpage, <a target=_blank href='https://evg4.github.io/friendfrenzy/'>Friend Frenzy social media</a>, is another React practice project. I wanted to create a simple page to get to grips with props, so the actual functionality of the site is basic; if you click the button on a user’s card, their “Love received” value will increase. <br><br> Despite the site being basic, it was a useful exercise for learning about props, and I’m pleased with the appearance of the tiles, too. <br>Fun fact: I originally used names of my friends from my salsa class, but decided to change them before I published in case anyone took offence to the animal I’d chosen for them!",
+      "This webpage, <a target=_blank href='https://evg4.github.io/friendfrenzy/'>Friend Frenzy social media</a>, is another React practice project. I wanted to create a simple page to get to grips with props, so the actual functionality of the site is basic; if you click the button on a user's card, their “Love received” value will increase. <br><br> Despite the site being basic, it was a useful exercise for learning about props, and I'm pleased with the appearance of the tiles, too. <br>Fun fact: I originally used names of my friends from my salsa class, but decided to change them before I published in case anyone took offence to the animal I'd chosen for them!",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -433,7 +452,7 @@ const blogs = [
     img: rhymes,
     summaryText: "My first API call!",
     fullText:
-      "This is the first project I made that makes use of an API call! It’s called <a target=_blank href='https://evg4.github.io/Rhyme-finder/'>Rhyme finder</a> and, as the name suggests, a user can type in a word and see other words or phrases that rhyme with it. They can also choose how many search results should be displayed. <br><br> I used async await syntax for the HTTP request and it retrieves data from the Datamuse API. There is also validation which triggers a pop up alert if the user presses the button without typing anything in the boxes.<br>I would have liked to have the results display in multiple columns to save the user needing to scroll down, though I wasn’t able to achieve that functionality at the time.",
+      "This is the first project I made that makes use of an API call! It's called <a target=_blank href='https://evg4.github.io/Rhyme-finder/'>Rhyme finder</a> and, as the name suggests, a user can type in a word and see other words or phrases that rhyme with it. They can also choose how many search results should be displayed. <br><br> I used async await syntax for the HTTP request and it retrieves data from the Datamuse API. There is also validation which triggers a pop up alert if the user presses the button without typing anything in the boxes.<br>I would have liked to have the results display in multiple columns to save the user needing to scroll down, though I wasn't able to achieve that functionality at the time.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -449,7 +468,7 @@ const blogs = [
     summaryText:
       "I created a bank of questions and answers to export for different quizzes.",
     fullText:
-      "I made a bank of quiz questions with three different quizzes as a way to practise importing and exporting modules in the Node environment. <br> In the first quiz, the player loses as soon as they get a question wrong. In the second, players have three lives. In the third quiz, a player can attempt all questions and they’ll see their score at the end. <br>See more details in my <a target=_blank href='https://github.com/evg4/Quizzes'>GitHub repo</a> with instructions on how to play.",
+      "I made a bank of quiz questions with three different quizzes as a way to practise importing and exporting modules in the Node environment. <br> In the first quiz, the player loses as soon as they get a question wrong. In the second, players have three lives. In the third quiz, a player can attempt all questions and they'll see their score at the end. <br>See more details in my <a target=_blank href='https://github.com/evg4/Quizzes'>GitHub repo</a> with instructions on how to play.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -465,7 +484,7 @@ const blogs = [
     summaryText:
       "The main purpose of this was to practice importing and exporting JavaScript modules.",
     fullText:
-      "I built this website, <a target=_blank href='https://evg4.github.io/Shapes/index.html'>Shapes</a>, to practise exporting and importing functions in JavaScript, so the page itself is very basic and doesn’t do much! This was also the first time I had to spin up a local server to test as I built. <br> It also provided a good opportunity to practise CSS animations and transformations again.",
+      "I built this website, <a target=_blank href='https://evg4.github.io/Shapes/index.html'>Shapes</a>, to practise exporting and importing functions in JavaScript, so the page itself is very basic and doesn't do much! This was also the first time I had to spin up a local server to test as I built. <br> It also provided a good opportunity to practise CSS animations and transformations again.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -481,7 +500,7 @@ const blogs = [
     summaryText:
       "This started out as a JavaScript-only Codecademy challenge, but I made a webpage too. ",
     fullText:
-      "This project felt like a big step up in skills so it took me a while to get going! It was a challenge on the Codecademy Front-End Engineer path that was originally to practise using classes in node, and after I completed it I decided to repurpose it and create a web version, also called <a target=_blank href='https://evg4.github.io/Find-your-hat-web/'>Find your hat</a>. <br> The functionality is basic – for example I didn’t know how to create logic that would prevent it from landing on a configuration where no solution is available – but I was happy to take the challenge from Codecademy and expand on it, even if only in a simple way.",
+      "This project felt like a big step up in skills so it took me a while to get going! It was a challenge on the Codecademy Front-End Engineer path that was originally to practise using classes in node, and after I completed it I decided to repurpose it and create a web version, also called <a target=_blank href='https://evg4.github.io/Find-your-hat-web/'>Find your hat</a>. <br> The functionality is basic – for example I didn't know how to create logic that would prevent it from landing on a configuration where no solution is available – but I was happy to take the challenge from Codecademy and expand on it, even if only in a simple way.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -496,7 +515,7 @@ const blogs = [
     img: portfolio,
     summaryText: "Here is my first portfolio! Featured on the Projects page.",
     fullText:
-      "This was the first <a target=_blank href='https://evg4.github.io/old-portfolio/'> Portfolio</a> that I built. I was really pleased with this; it was another Codecademy project, and the brief was to make a portfolio site with a separate Contacts page, but I decided to take it a bit further and do some other pages.<br>It took me a while to settle on a colour scheme (design isn’t my strong point!) but I’m happy with the minimalistic look.<br>The portfolio worked great when I didn’t have many projects, but as I added more and more, the Projects page started to look crowded, with too many buttons.<br><br>I also included everything together on one page – from small experiments that weren’t much by themselves, to full websites – so the better projects didn’t really stand out. Finally, it was built with plain JavaScript, HTML and CSS, so every time I wanted to add a new element, I had to copy and paste code then update it.<br><br>After I learnt React, I decided to rebuild my portfolio using that so I could take advantage of reusable components, and took the opportunity to create this Blogs page to document my learnings, however small, and a separate Projects page for the more substantial things I build.",
+      "This was the first <a target=_blank href='https://evg4.github.io/old-portfolio/'> Portfolio</a> that I built. I was really pleased with this; it was another Codecademy project, and the brief was to make a portfolio site with a separate Contacts page, but I decided to take it a bit further and do some other pages.<br>It took me a while to settle on a colour scheme (design isn't my strong point!) but I'm happy with the minimalistic look.<br>The portfolio worked great when I didn't have many projects, but as I added more and more, the Projects page started to look crowded, with too many buttons.<br><br>I also included everything together on one page – from small experiments that weren't much by themselves, to full websites – so the better projects didn't really stand out. Finally, it was built with plain JavaScript, HTML and CSS, so every time I wanted to add a new element, I had to copy and paste code then update it.<br><br>After I learnt React, I decided to rebuild my portfolio using that so I could take advantage of reusable components, and took the opportunity to create this Blogs page to document my learnings, however small, and a separate Projects page for the more substantial things I build.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -511,7 +530,7 @@ const blogs = [
     img: survey,
     summaryText: "I made this form to practise HTML forms. ",
     fullText:
-      "In a Facebook group for beginner coders, it seemed like the first thing anyone built was a HTML form. I added it to my list of ‘things to learn’ so I was pleased when I finally covered it in the Codecademy course! <br>This <a target=_blank href='https://evg4.github.io/Sweets-survey/'>Sweets and Chocolate survey</a> doesn’t actually do anything with the data you submit, but was a great way to practise different form elements and question types.",
+      "In a Facebook group for beginner coders, it seemed like the first thing anyone built was a HTML form. I added it to my list of ‘things to learn' so I was pleased when I finally covered it in the Codecademy course! <br>This <a target=_blank href='https://evg4.github.io/Sweets-survey/'>Sweets and Chocolate survey</a> doesn't actually do anything with the data you submit, but was a great way to practise different form elements and question types.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -543,7 +562,7 @@ const blogs = [
     summaryText:
       "This website focuses on transitions, transformations and animations using CSS.",
     fullText:
-      "I built this webpage, <a target=_blank href='https://evg4.github.io/Belle-s-bakery/'>Belle’s Bakery</a>, to practice using CSS animations and transitions, so the design leaves a lot to be desired because that wasn’t my priority!<br>I found the information on Codecademy regarding animations and transitions to not be as detailed as some of the other topics, but luckily I found some other good resources to fill the gaps.",
+      "I built this webpage, <a target=_blank href='https://evg4.github.io/Belle-s-bakery/'>Belle's Bakery</a>, to practice using CSS animations and transitions, so the design leaves a lot to be desired because that wasn't my priority!<br>I found the information on Codecademy regarding animations and transitions to not be as detailed as some of the other topics, but luckily I found some other good resources to fill the gaps.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -558,7 +577,7 @@ const blogs = [
     img: stammtisch,
     summaryText: "This site uses @media rulesets to make a webpage responsive.",
     fullText:
-      "For this project, I had to create a responsive website that was suitable for different screen sizes. I made <a target=_blank href='https://evg4.github.io/Stammtisch-Sundays/'> Stammtisch Sundays</a>, a website for a made-up group for people to practise speaking German. (In case anyone is wondering about the strange colour scheme, it’s designed to reflect the German flag!)<br>When the size of the browser is adjusted, the header and main text change size, and the layout of the images and map/text at the bottom adjust.",
+      "For this project, I had to create a responsive website that was suitable for different screen sizes. I made <a target=_blank href='https://evg4.github.io/Stammtisch-Sundays/'> Stammtisch Sundays</a>, a website for a made-up group for people to practise speaking German. (In case anyone is wondering about the strange colour scheme, it's designed to reflect the German flag!)<br>When the size of the browser is adjusted, the header and main text change size, and the layout of the images and map/text at the bottom adjust.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -574,7 +593,7 @@ const blogs = [
     summaryText:
       "I wanted to work out how to get a caption that appears on hover.",
     fullText:
-      "After finishing my previous project, <a target=_blank href='https://evg4.github.io/Green-Consulting/'>Green Consulting</a>, I looked at the Codecademy forums to see what other learners had created. I saw one example where the developer had added images with captions that appeared when the mouse hovered over it. I really liked how it looked so wanted to see if I could recreate it.<br>This <a target=_blank href='https://evg4.github.io/Meet-the-team/'>Meet the team</a> page is not a full website, but just a chance to try that. I was pleased that I managed, and it was nice to get inspiration from other people’s learnings!   ",
+      "After finishing my previous project, <a target=_blank href='https://evg4.github.io/Green-Consulting/'>Green Consulting</a>, I looked at the Codecademy forums to see what other learners had created. I saw one example where the developer had added images with captions that appeared when the mouse hovered over it. I really liked how it looked so wanted to see if I could recreate it.<br>This <a target=_blank href='https://evg4.github.io/Meet-the-team/'>Meet the team</a> page is not a full website, but just a chance to try that. I was pleased that I managed, and it was nice to get inspiration from other people's learnings!   ",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -606,7 +625,7 @@ const blogs = [
     summaryText:
       "Here is my second attempt at using the grid layout, based heavily on the previous design.",
     fullText:
-      "After building <a target=_blank href='https://evg4.github.io/Superfoods-v1/'> Superfoods v1</a> to practise using the grid layout, I realised there were ways it could be improved, so I had another go!<br> <a target=_blank href=''>Superfoods v2</a> uses max-width and min-width to change the size of the elements when the browser is resized, which makes it look better. I also changed the images so they don’t repeat within their container.",
+      "After building <a target=_blank href='https://evg4.github.io/Superfoods-v1/'> Superfoods v1</a> to practise using the grid layout, I realised there were ways it could be improved, so I had another go!<br> <a target=_blank href=''>Superfoods v2</a> uses max-width and min-width to change the size of the elements when the browser is resized, which makes it look better. I also changed the images so they don't repeat within their container.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -622,7 +641,7 @@ const blogs = [
     summaryText:
       "This simple page was my first attempt at using the grid layout.",
     fullText:
-      "I created a basic webpage called <a target=_blank href='https://evg4.github.io/Superfoods-v1/'> Superfoods</a> to practise using the grid layout. I didn’t find this particularly intuitive and it took a few tries to get it working how I wanted, but it was a good way to learn how it works and try a different layout.",
+      "I created a basic webpage called <a target=_blank href='https://evg4.github.io/Superfoods-v1/'> Superfoods</a> to practise using the grid layout. I didn't find this particularly intuitive and it took a few tries to get it working how I wanted, but it was a good way to learn how it works and try a different layout.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -638,7 +657,7 @@ const blogs = [
     summaryText:
       "This webpage was for me to try out flexbox... with an interesting colour choice!",
     fullText:
-      "I wanted to practise using flexbox so created this page, <a target=_blank href='https://evg4.github.io/Spanish/'>Spanish</a>, with boxes of various sizes. I experimented with the properties  flex-shrink, flex-grow and flex-wrap to allow the boxes to resize as the browser changed size. <br>I took colour inspiration from the Spanish flag but am aware it’s not the most aesthetically pleasing website!",
+      "I wanted to practise using flexbox so created this page, <a target=_blank href='https://evg4.github.io/Spanish/'>Spanish</a>, with boxes of various sizes. I experimented with the properties  flex-shrink, flex-grow and flex-wrap to allow the boxes to resize as the browser changed size. <br>I took colour inspiration from the Spanish flag but am aware it's not the most aesthetically pleasing website!",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -653,7 +672,7 @@ const blogs = [
     img: styleGuide,
     summaryText: "A project to get used to different style elements.",
     fullText:
-      "I created this <a target=_blank href='https://evg4.github.io/Website-style-guide/'>Website style guide</a> to get used to using different font styles, sizes and colours. I also made use of the id attribute to have links to each section of the page.<br> I wanted to make all the boxes in the Colours section the same size, but I haven’t learnt how to do that yet!",
+      "I created this <a target=_blank href='https://evg4.github.io/Website-style-guide/'>Website style guide</a> to get used to using different font styles, sizes and colours. I also made use of the id attribute to have links to each section of the page.<br> I wanted to make all the boxes in the Colours section the same size, but I haven't learnt how to do that yet!",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
@@ -685,7 +704,7 @@ const blogs = [
     summaryText:
       "My first project! I completed this as part of the SheCodes Basics course.",
     fullText:
-      "This was my first project, completed as the final challenge in the SheCodes Basics course. The task was to create a simple webpage to put into practice everything we had learnt, so I created this site, <a target=_blank href='https://evg4.github.io/Salsa-dancing/'>Salsa dancing</a>. <br>SheCodes covered HTML, CSS and JavaScript, but didn’t go into great depth in any of them; it provides a snapshot of the different languages to demonstrate what can be achieved.<br>For me, it was the perfect introduction to coding and helped confirm that I wanted to learn more.",
+      "This was my first project, completed as the final challenge in the SheCodes Basics course. The task was to create a simple webpage to put into practice everything we had learnt, so I created this site, <a target=_blank href='https://evg4.github.io/Salsa-dancing/'>Salsa dancing</a>. <br>SheCodes covered HTML, CSS and JavaScript, but didn't go into great depth in any of them; it provides a snapshot of the different languages to demonstrate what can be achieved.<br>For me, it was the perfect introduction to coding and helped confirm that I wanted to learn more.",
     get fullDate() {
       return `${this.day}.${this.month}.${this.year}`;
     },
