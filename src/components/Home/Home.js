@@ -46,8 +46,8 @@ function Home() {
         aria-label="Lizzie is standing against a pale curtain with yellow fairy lights. She's wearing glasses and a grey jumper dress, smiling at the camera."
       >
         <p>
-          Hi, I’m Lizzie (she/her) – a linguist-turned-coder currently doing a
-          Makers coding bootcamp.
+          Hi, I’m Lizzie (she/her) – a linguist-turned-coder currently working
+          as a Software Developer at Deloitte.
           <br />
           <br />
           I started teaching myself to code in April 2023 when I was working as
@@ -59,8 +59,9 @@ function Home() {
           After completing a course in front-end engineering in December 2023, I
           started my first tech role as a Pega Apprentice at Jetty Technologies,
           learning the low-code system of Pega. I was later promoted to Pega
-          Developer and passed my Pega System Architect exam. I'm now doing a
-          12-week bootcamp with Makers where I'm learning Python, SQL and Java.
+          Developer and passed my Pega System Architect exam. I then did a
+          12-week bootcamp with Makers where I learnt Python, SQL and Java, and
+          then started my role at Deloitte.
           <br />
           <br />I built this portfolio to document my learning and keep all my
           projects in one place. If you want to go right back to the beginning
