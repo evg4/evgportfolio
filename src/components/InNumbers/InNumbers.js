@@ -14,7 +14,7 @@ function InNumbers() {
         Days spent coding:<br></br> {daysCoding}
       </p>
       <p>
-        Certificates gained:<br></br> 8
+        Certificates gained:<br></br> 9
       </p>
       <p>
         Practice projects completed:<br></br>
