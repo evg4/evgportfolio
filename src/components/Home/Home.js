@@ -1,6 +1,5 @@
 import styles from "./Home.module.css";
 import { Link } from "react-router-dom";
-/*import photo from "../../assets/sunflowers.jpg";*/
 /*import TwitterTimeline from "../TwitterTimeline/TwitterTimeline";*/
 import InNumbers from "../InNumbers/InNumbers";
 
