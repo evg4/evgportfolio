@@ -1,3 +1,4 @@
+import AWSRevision from "../assets/AWSRevision.jpg";
 import smartPlannerVideo from "../assets/smartPlannerDemo.mov";
 import smartPlanner from "../assets/smartPlanner.png";
 import OAuthApp from "../assets/OAuthApp.jpg";
@@ -46,6 +47,23 @@ import cheatsheet from "../assets/cheatsheet.jpeg";
 import salsa from "../assets/salsa.jpeg";
 
 const blogs = [
+  {
+    title: "AWS Revision",
+    link: "",
+    day: "29",
+    month: "08",
+    year: "2026",
+    img: AWSRevision,
+    video: null,
+    summaryText:
+      "Simple Java programme to help me revise for my AWS Cloud Practitioner exam.",
+    fullText:
+      "My process when revising for exams is to write revision notes, and then come up with same questions based on those notes that I can use to quiz myself. I started typing out said questions then thought… wait a minute… I’m a developer! I’ll do it in code! I was also brushing up on my Java after not touching it for a few months so it was a perfect way to get some practice in.<br><br>The purpose of this project was to create a revision aid for me, so writing out all the questions formed part of the revision process – if the goal were simply to create a programme in the most efficient way, I would have found some pre-existing questions to import instead of spending the time on it myself! <br><br>As it was, this was a helpful exercise for me, and I also learnt some new Java concepts, including Streams and Scanners, and practised fundamentals like arrays, ArrayLists and loops. <br><br>And best of all, I passed my exam first time! If you’d like to try it out, you can <a target='blank' href='https://github.com/evg4/AWSRevision/tree/main'>find the code on my GitHub</a>.",
+    get fullDate() {
+      return `${this.day}.${this.month}.${this.year}`;
+    },
+    alt: "A  terminal showing an interactive quiz which shows questions and answers one at a time.",
+  },
   {
     title: "Smart Planner",
     link: "",
